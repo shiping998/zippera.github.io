@@ -1,0 +1,295 @@
+
+
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>hexo系列教程：（二）搭建hexo博客 | Zippera's blog</title>
+  <meta name="author" content="zippera">
+  
+  <meta name="description" content="Walk steps step by step">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="hexo系列教程：（二）搭建hexo博客"/>
+  <meta property="og:site_name" content="Zippera's blog"/>
+
+  
+    <meta property="og:image" content="undefined"/>
+  
+
+  <link href="/favicon.ico" rel="icon" type="image/x-ico">
+  <link rel="alternate" href="http://zipperary.com/atom.xml" title="Zippera's blog" type="application/atom+xml">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+  <script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Ffe3814b5f53cc394a493cbeb2368f2af' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-41207871-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+</head>
+
+
+<body>
+  <header id="header" class="inner">
+<div class="alignleft">
+  <h1><a href="/">Zippera's blog</a></h1>
+  <h2><a href="/">Walk steps step by step</a></h2>
+</div>
+<nav id="main-nav" class="alignright">
+  <ul>
+    
+      <li><a href="/">首页</a></li>
+    
+      <li><a href="/archives">归档</a></li>
+    
+      <li><a href="/about">关于</a></li>
+    
+      <li><a href="/todolist">ToDo</a></li>
+    
+	<li> <a href="/atom.xml">RSS</a> </li>
+
+  </ul>
+  <div class="clearfix"></div>
+</nav>
+<div class="clearfix"></div></header>
+  <div id="content" class="inner">
+    <div id="main-col" class="alignleft"><div id="wrapper"><article class="post">
+  
+  <div class="post-content">
+    <header>
+      
+        <div class="icon"></div>
+        <time datetime="2013-05-28T09:28:53.000Z"><a href="/2013/05/28/hexo-guide-2/">5月 28 2013</a></time>
+      
+      
+  
+    <h1 class="title">hexo系列教程：（二）搭建hexo博客</h1>
+  
+
+    </header>
+    <div class="entry">
+      
+        <p><a href="http://zipperary.com/2013/05/28/hexo-guide-1/#more">上一节</a>对hexo进行了简单介绍，本节来讲讲怎么搭建hexo博客。</p>
+<p><strong>注意</strong>：本节教程只针对Windows用户，Linux和Mac用户请移步<a href="http://zespia.tw/hexo/zh-CN/docs/install.html" target="_blank">hexo安装</a>。</p>
+<h3>安装Git</h3>
+<p>下载 <a href="http://code.google.com/p/msysgit/" target="_blank">msysgit</a> 并执行即可完成安装。</p>
+<h3>安装Node.js</h3>
+<p>在 Windows 环境下安装 Node.js 非常简单，仅须<a href="http://nodejs.org/" target="_blank">下载</a>安装文件并执行即可完成安装。</p>
+<h3>安装hexo</h3>
+<p>利用 npm 命令即可安装。（在任意位置点击鼠标右键，选择<em>Git bash</em>）</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre>1
+</pre></td><td class="code"><pre><span class="title">npm</span> install -g hexo
+</pre></td></tr></table></figure>
+
+<h3>创建hexo文件夹</h3>
+<p>安装完成后，在你喜爱的文件夹下（如<code>H:\hexo</code>），执行以下指令(在<code>H:\hexo</code>内点击鼠标右键，选择<em>Git bash</em>)，Hexo 即会自动在目标文件夹建立网站所需要的所有文件。</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre>1
+</pre></td><td class="code"><pre><span class="title">hexo</span> init
+</pre></td></tr></table></figure>
+
+<h3>本地查看</h3>
+<p><a id="more"></a><br>现在我们已经搭建起本地的hexo博客了，执行以下命令(在<code>H:\hexo</code>)，然后到浏览器输入<code>localhost:4000</code>看看。</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre>1
+2
+</pre></td><td class="code"><pre><span class="title">hexo</span> generate
+<span class="title">hexo</span> server
+</pre></td></tr></table></figure>
+
+<p>好了，至此，本地博客已经搭建起来了，只是本地哦，别人看不到的。下面，我们要部署到Github。</p>
+<h3>注册Github账号</h3>
+<p>已有账号可以跳过，没有的，请<a href="https://github.com/signup/free" target="_blank">在此</a>进行注册，很简单，这里就不介绍了。<br><img src="/img/repo.png" alt=""></p>
+<h3>创建repository</h3>
+<p>在自己<a href="https://github.com/" target="_blank">Github</a>主页右下角，创建一个新的repository。比如我的<a href="https://github.com/" target="_blank">Github</a>账号是<a href="https://github.com/zippera" target="_blank">zippera</a>，那么我应该创建的repository名字应该是<code>zippera.github.io</code>。</p>
+<h3>部署</h3>
+<p>编辑<code>_config.yml</code>(在<code>H:\hexo</code>下)。你在部署时，要把下面的<code>zippera</code>都换成你的账号名。</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre>1
+2
+3
+4
+</pre></td><td class="code"><pre><span class="method">deploy:</span>
+  <span class="method">type:</span> github
+  <span class="method">repository:</span> <span class="method">https:</span>//github.com/zippera/zippera.github.io.git
+  <span class="method">branch:</span> master
+</pre></td></tr></table></figure>
+
+<p>执行下列指令即可完成部署。</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre>1
+2
+</pre></td><td class="code"><pre><span class="title">hexo</span> generate
+<span class="title">hexo</span> deploy
+</pre></td></tr></table></figure>
+
+<p><strong>记住：</strong>每次修改本地文件后，需要<code>hexo generate</code>才能保存。每次使用命令时，都要在<code>H:\hexo</code>目录下。</p>
+<p>Okay,我们的博客已经完全搭建起来了，在浏览器访问<code>zippera.github.io</code>就能看到你的成就了！</p>
+<h3>bugs</h3>
+<ol>
+<li>有网友反应右键菜单中没有<code>git bash</code>选项，可以进入开始菜单找到<code>git bash</code>，然后通过<code>cd</code>进入相应目录执行命令。</li>
+<li>在github部署完成之后，马上访问可能出现404错误，这是正常的，（最多）等待十分钟左右就可以访问了。</li>
+</ol>
+<p>在下一节中，我们会介绍如何配置自己的网站，如何撰写和发表文章。</p>
+<hr>
+<p>爱打卡-100days-第1天-0111</p>
+
+      
+    </div>
+    <footer>
+      
+        
+  
+  <div class="categories">
+    <a href="/categories/hexo/">hexo</a>
+  </div>
+
+        
+  
+  <div class="tags">
+    <a href="/tags/hexo/">hexo</a>, <a href="/tags/博客/">博客</a>, <a href="/tags/教程/">教程</a>
+  </div>
+
+<!-- Baidu Button BEGIN -->
+<div id="bdshare" class="bdshare_t bds_tools_32 get-codes-bdshare">
+<a class="bds_qzone"></a>
+<a class="bds_tsina"></a>
+<a class="bds_tqq"></a>
+<a class="bds_renren"></a>
+<a class="bds_t163"></a>
+<span class="bds_more"></span>
+<a class="shareCount"></a>
+</div>
+<script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=3326447" ></script>
+<script type="text/javascript" id="bdshell_js"></script>
+<script type="text/javascript">
+document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+</script>
+<!-- Baidu Button END -->      
+      <div class="clearfix"></div>
+    </footer>
+  </div>
+</article>
+
+
+<section id="comment">
+
+<!-- Duoshuo Comment BEGIN -->
+	<div class="ds-thread"></div>
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"zippera"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = 'http://static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		|| document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+<!-- Duoshuo Comment END -->  
+
+  
+</section>
+</div></div>
+    <aside id="sidebar" class="alignright">
+  <div class="search">
+  <form action="//google.com/search" method="get" accept-charset="utf-8">
+    <input type="search" name="q" results="0" placeholder="搜索">
+    <input type="hidden" name="q" value="site:zipperary.com">
+  </form>
+</div>
+
+  
+<div class="widget tag">
+  <h3 class="title">分类</h3>
+  <ul class="entry">
+  
+    <li><a href="/categories/English/">English</a><small>1</small></li>
+  
+    <li><a href="/categories/IT杂谈/">IT杂谈</a><small>15</small></li>
+  
+    <li><a href="/categories/Ruby/">Ruby</a><small>2</small></li>
+  
+    <li><a href="/categories/hexo/">hexo</a><small>16</small></li>
+  
+    <li><a href="/categories/linux/">linux</a><small>3</small></li>
+  
+    <li><a href="/categories/python/">python</a><small>15</small></li>
+  
+    <li><a href="/categories/人物/">人物</a><small>2</small></li>
+  
+    <li><a href="/categories/前端/">前端</a><small>4</small></li>
+  
+    <li><a href="/categories/思维记忆/">思维记忆</a><small>1</small></li>
+  
+    <li><a href="/categories/推荐/">推荐</a><small>1</small></li>
+  
+    <li><a href="/categories/机器学习/">机器学习</a><small>5</small></li>
+  
+    <li><a href="/categories/生活/">生活</a><small>23</small></li>
+  
+    <li><a href="/categories/电影/">电影</a><small>12</small></li>
+  
+    <li><a href="/categories/读书笔记/">读书笔记</a><small>16</small></li>
+  
+  </ul>
+</div>
+
+
+  <div class="widget tag">
+<h3 class="title">简介</h3>
+<ul class="entry">
+<li>本体：赵伟</li>
+<li>二次元：zippera | moxie</li>
+<li>现状：帝都CS在读研究生</li>
+<li>想要征婚、交友的朋友请<a href="http://zipperary.com/about">联系我</a>！</li>
+</ul>
+</div>
+
+
+
+  <iframe width="100%" height="550" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=550&fansRow=2&ptype=1&speed=0&skin=1&isTitle=1&noborder=1&isWeibo=1&isFans=0&uid=1586279270&verifier=0c2cdcf8&dpc=1"></iframe>
+</aside>
+    <div class="clearfix"></div>
+  </div>
+  <footer id="footer" class="inner"><div class="alignleft">
+  
+  &copy; 2013 zippera
+  
+</div>
+<div class="clearfix"></div></footer>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+
+
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+</body>
+</html>
+
+
+<a href="https://github.com/zippera" target="_blank"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_left_white_ffffff.png" alt="Fork me on GitHub"></a>

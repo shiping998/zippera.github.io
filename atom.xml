@@ -1,0 +1,1189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><![CDATA[Zippera's blog]]></title>
+  <subtitle><![CDATA[Walk steps step by step]]></subtitle>
+  <link href="http://zipperary.com/atom.xml" rel="self"/>
+  <link href="http://zipperary.com"/>
+  <updated>2013-09-29T07:48:35.730Z</updated>
+  <id>http://zipperary.com/</id>
+  <author>
+    <name><![CDATA[zippera]]></name>
+    <email><![CDATA[sovey198@gmail.com]]></email>
+  </author>
+  <generator uri="http://zespia.tw/hexo">Hexo</generator>
+  <entry>
+    <title type="html"><![CDATA[教你设置二级代理]]></title>
+    <link href="http://zipperary.com/2013/09/25/secondary-proxy/"/>
+    <id>http://zipperary.com/2013/09/25/secondary-proxy/</id>
+    <published>2013-09-25T09:01:45.000Z</published>
+    <updated>2013-09-25T09:26:04.000Z</updated>
+    <content type="html"><![CDATA[<p>之前在<a href="http://zipperary.com/2013/09/10/qiao-qiao-gao-su-ni/">《悄悄告诉你》</a>一文中提到过校园中用代理绕过计费系统上网的方法。这个trick让我窃喜了一阵子，但实际上有个问题没有解决：无法再使用vpn或Goagent代理翻墙。于是这些天我在使用Google时不时地抹眼泪，不翻墙的日子太憋屈了！</p>
+<p>痛定思痛，既然已经尝试过各种可以想到的办法仍旧未果，那么接下来唯一可做的就是请教大神了。大神在哪里？在V2！我便聪明果敢地在这里抛出了<a href="http://www.v2ex.com/t/83331#reply16" target="_blank">这个难题</a>，等待大神赐教。陆续收到了一些回答，了解到我需要设置二级代理，但这个概念本身我都是第一次听说，更不会设置了，网上也搜索不出教程，很是苦恼。直到！直到今天下午，@xujialiang图文并茂的回答才给了我生机。虽然他用的是mac，虽然界面跟Proxifier不一样，虽然他用的是shadowsocks，但「添加规则」的方式都是类似的。比照他的设置，我在Proxifier设置了Goagent的过滤规则。然后打开软件，打开浏览器，输入<a href="http://www.youtube.com/" target="_blank">http://www.youtube.com/</a>，Bingo！久违的界面映入眼帘！</p>
+<p>废话一箩筐，无图无真相！</p>
+<p><img src="http://ww1.sinaimg.cn/large/5e8cb366jw1e8yvafwr5lj20sd0er77b.jpg" alt=""></p>
+<p>需要设置的地方已经用红框标示，代理服务器地址就不方便透露了。</p>
+<p>从原理上讲，就是让翻墙软件（如Goagent、Shadowsocks）也走代理。我原来一直以为翻墙软件默认是走代理的，所以没有尝试这个设置，看来这就是问题的症结所在。推广开来，任何用代理时无法联网的应用，都可以通过设置代理规则搞定。</p>
+<p>现在呢，有了伟光正的代理服务器，有了彪悍霸气神威的Proxifier，有了自由召唤者Goagent，生活将是另一个面貌！</p>
+]]></content>
+    <category scheme="http://zipperary.com/categories/IT杂谈/" term="IT杂谈"/>
+  </entry>
+  <entry>
+    <title type="html"><![CDATA[中秋快乐]]></title>
+    <link href="http://zipperary.com/2013/09/19/mid-autumn/"/>
+    <id>http://zipperary.com/2013/09/19/mid-autumn/</id>
+    <published>2013-09-19T13:27:19.000Z</published>
+    <updated>2013-09-19T14:40:56.000Z</updated>
+    <content type="html"><![CDATA[<p><img src="http://ww2.sinaimg.cn/large/5e8cb366jw1e8s6qxlsh0j20sg0lc76n.jpg" alt=""></p>
+<p>我其实挺害怕周末和过节，同学们都出去玩了，我也很难安心学习，又觉得出去玩挺没意思的（尤其是没有妹子），所以就比较尴尬了。</p>
+<p>昨晚和另外一个没有计划的舍友商量怎么打发这个节日，舍友非常随和，很快就同意了我的提议：徒步去国图看书，然后乘地铁去798看展览。</p>
+<p>话说时光陡然转到今天早晨，在我不知不觉数次关掉闹铃后，终于在八点多醒来。洗漱、准备完毕，出发时，发现外面下起了蒙蒙细雨，徒步计划泡汤了（虽然只有一个地铁站的距离，但湿身难免）。利用强大的百度地图，找到了一条最佳的公交线路：新2-南门-旁边公交站乘563-经过4站到达国图站。北理的人会知道这是一条多么便利的路线，我心生感激了都。</p>
+<a id="more"></a>
+
+<p>到达国图，南馆和中间那个不知道是什么的场馆都在装修，只有北馆是开放的。北馆的建筑风格很有范儿。存包很方便。进去的时候，门口有人在分发塑料袋，用来包裹雨伞，挺贴心的。整个过程的体会有以下几点：</p>
+<ol>
+<li><p>藏书挺丰富的。我只找了下Python相关的书，不少，C的更加满眼都是，相信南馆开馆后可供阅读的书会更多吧。</p>
+</li>
+<li><p>读书环境很好。地板和墙体的特殊装修，使得噪音降到了最低，可以安心读书。</p>
+</li>
+<li><p>有插座，有免费的wifi，对于手机党和电脑党，可以安心自习一整天。</p>
+</li>
+<li><p>可以在机器上自助办理读者卡，只需要身份证，非常便捷。</p>
+</li>
+<li><p>每个书架处设有有还书用的书架。</p>
+</li>
+<li><p>沙发和座椅都很舒服。</p>
+</li>
+<li><p>查询机器比较多，但位置不太显眼。</p>
+</li>
+<li><p>报刊区貌似不够丰富，是不是我去的地方不合适。。</p>
+</li>
+<li><p>现在不允许外借，坑爹。</p>
+</li>
+<li><p>外面馆子比较少，吃中饭不容易，害的我们跑去动物园那边吃麦当劳。</p>
+</li>
+</ol>
+<p>总体来说，国图对我们新2的学生太便利了，环境又好，美女如云，可以时常自带干粮去自习。</p>
+<p>为了吃中饭，我们不得不去动物园那边。也是仅有一个地铁站的距离，而且雨已停歇，我们便徒步走了过去，正好对那边的环境做一个观光。中间经过了首都体育馆、中储粮、中科院古生物所、俏江南等等。麦当劳在动物园对面的服装批发市场里面，环境不好，人爆挤，空间非常小，只能外带了。闲来无事，既然走到了动物园门口，干脆进去看看得了。于是一个下午就奉献给了动物园。</p>
+<p>这是第二次来。上一次带的是妹子，这次是室友，待遇迥异。逛动物园是个体力活，但非常的值得，那么多稀奇古怪的动物都可以一览真容，累也值了。这次除了看动物，另一个主要的收获是一大波的美女，美女比动物更吸引人。。动物园好大，绿化非常不错，动物的种类和数量充足。这一次见到了一些上次没见到的，比如北极熊、棕熊、大象、河马、两栖爬虫馆、狐猴、秃鹫、东北虎、牦牛等。也没看到一些上次看到的，如熊猫、企鹅、各种羊、草泥马、狮子。互为补充，加起来比较齐全了。其中看到了一个非常恶心的场景，就是当呆萌的狒狒先生转过身时，它的屁股像肉瘤一般，比美国的血腥恐怖大片都恶心。另外，秃鹫那边由于有腐肉，气味也不好。其余都很nice。回来后有同学相约冬季再去看一次，希望会另有不同的景象。</p>
+<p>今晚的月亮很圆，但被一层薄雾遮住了，不是很亮。天涯共此时，共此月，中秋快乐。</p>
+]]></content>
+    <category scheme="http://zipperary.com/categories/生活/" term="生活"/>
+  </entry>
+  <entry>
+    <title type="html"><![CDATA[安卓应用推荐]]></title>
+    <link href="http://zipperary.com/2013/09/18/android-apps/"/>
+    <id>http://zipperary.com/2013/09/18/android-apps/</id>
+    <published>2013-09-18T09:04:08.000Z</published>
+    <updated>2013-09-18T14:36:20.000Z</updated>
+    <content type="html"><![CDATA[<p><img src="http://ww3.sinaimg.cn/large/5e8cb366jw1e8r0zttw6pj20nl0icdgo.jpg" alt=""></p>
+<p>安卓手机刚刚走进中国市场的时候，我和周围的同学就开始使用，一直到现在，陪伴安卓从2.3走到4.3，看到安卓自身的变化以及给世界带来的巨变，衷心感激安卓拓展了我的认知范围，给我的生活带来了许许多多的便利。这里就推荐（或曰列举）一下我手机里使用的APP。由于大脑容量和质量有限，几乎不会玩游戏，也不装游戏，所以本文只涉及应用，不涉及游戏。</p>
+<a id="more"></a>
+
+<h3>Before Everything</h3>
+<p>写在最前面的这些，可以拓展安卓手机的能力。</p>
+<ol>
+<li><p>Root。<br>Root是一种操作，目的是获取手机的超级权限。建议喜欢玩机的都root一下，否则很多应用没法使用，系统文件也无法修改。</p>
+<p>Root的方法依手机而定。一般情况下，去「安卓论坛」相应手机的板块下，都会有教程。</p>
+</li>
+<li><p>Google服务框架。</p>
+<p>中国卖的行货手机普遍把Google服务阉割掉了，十分坑爹十分想让人骂娘。没有这个东西，就无法使用Google提供的各项服务和应用，如：云同步、Gmail、Google Play。</p>
+<p>安装Google服务框架的方法是：到<a href="http://goo.im/gapps" target="_blank">这里</a>下载对应安卓版本的gapps，然后用Recovery将其刷入（不需要双清）。</p>
+</li>
+<li><p>刷机。</p>
+<p>如果对自己的系统很满意，完全可以不走这一步。如果想刷系统的话，可以到论坛里面对应版块找喜欢的系统，按照论坛里的教程刷机。</p>
+</li>
+</ol>
+<h3>社交</h3>
+<ol>
+<li><p>微博。</p>
+<p>这里值得一提的是，微博客户端会有个小尾巴，显示「来自Android客户端」、「来自三星Galaxy S3」云云。如果你的微博小尾巴是第一种，可能需要到厂商自带的市场（如三星应用商店）下载新浪微博客户端才行，下载好之后记得升级到最新版本。</p>
+</li>
+</ol>
+<ol>
+<li><p>Fuubo。</p>
+<p>第三方的新浪微博客户端，完全遵守安卓的设计规范，轻盈、简洁、漂亮、易用。</p>
+</li>
+<li><p>微信。</p>
+<p>这个不用说了吧。</p>
+</li>
+<li><p>QQHD mini。</p>
+<p>QQ客户端，对于大屏手机推荐使用这个版本，布局合理、干净，好用。</p>
+</li>
+<li><p>Twitter &amp;&amp; Facebook。</p>
+<p>我使用的全是官方版本，非常漂亮易用。但由于GFW的存在，这两个应用都需要翻墙，稍后会提到翻墙使用的APP。</p>
+</li>
+<li><p>Google+。</p>
+<p>Google的社交产品，上面有很多各界的大牛。应用本身做的特别出色，操作和界面都令人叹为观止。我平时用这个看些新闻和图片。</p>
+</li>
+</ol>
+<h3>阅读</h3>
+<p>这里面包括电子书、信息、RSS和新闻的阅读。</p>
+<ol>
+<li><p>多看。</p>
+<p>安卓上的王者，应用做的很完美，电子书的质量很高，价格不贵。每天都会推出一本限免书，排版非常精美。支持笔记、批注、标签等功能，还可以轻松将笔记、标注导出到Evernote等应用。</p>
+<p>支持的电子书格式有epub、pdf、txt等。</p>
+</li>
+<li><p>Kindle。</p>
+<p>Kindle的安卓版。基本功能都有，阅读体验也不错，最重要的是，mobi格式的电子书数量巨大、排版精良，随处可以下载到。遗憾的是导出功能缺失，害得我有一次把一本书的笔记批注手打到电脑上。</p>
+</li>
+<li><p>Startup News。</p>
+<p>Fenng创办的，Hacker News的中国版，网友们把在网上看到的好的内容推荐到这里。聚集了很高人气，推荐的文章质量很不错。我每天必看，学到很多。</p>
+</li>
+<li><p>知乎。</p>
+<p>一个高质量的问答社区，客户端做的也不错。如果你不拒绝知识，一定要看看。</p>
+</li>
+<li><p>Quora。</p>
+<p>知乎的鼻祖。内容的质量比知乎高、态度也更严肃一点。如果英文不错，或者想学英文，强烈推荐每天阅读。</p>
+</li>
+<li><p>Gmail。</p>
+<p>我的神器。邮件即时推送。对垃圾邮件的过滤十分强大。由于the Fuck GFW，网页版的Gmail经常掉链子，但安卓客户端好像一直很稳定。强烈推荐！</p>
+</li>
+<li><p>鲜果联播。</p>
+<p>订阅感兴趣的信息源。尽管新版本的呈现样式我很不喜欢，而且把RSS功能阉割掉了，但仍然是一款优秀的应用。</p>
+</li>
+<li><p>糗事百科。</p>
+<p>谁能拒绝娱乐呢，快点安装吧，笑抽了。</p>
+</li>
+<li><p>Pocket。</p>
+<p>又一个神器。看到喜欢的文章，又来不及阅读，怎么办？Add to Pocket！有浏览器插件、网页版、各种移动客户端。支持离线阅读。</p>
+</li>
+<li><p>今日头条。</p>
+<p>个性化看新闻，我最近开始使用，感觉不错。</p>
+</li>
+</ol>
+<h3>应用市场</h3>
+<ol>
+<li><p>Google Play.</p>
+<p>最官方最正宗的应用市场，数量大、质量高，但有些不能在国内下载。</p>
+</li>
+<li><p>豌豆荚。</p>
+<p>很全，基本上都能在这里找到，通过各种机制，也提高了应用的总体质量。这两个配合使用，天下无敌。</p>
+</li>
+</ol>
+<h3>视频</h3>
+<ol>
+<li><p>快播。</p>
+<p>无论是对格式的支持，还是人性化的操作方式，亦或是丰富的在线视频、雷达功能，注定它要在这个领域占有一席之地。</p>
+</li>
+<li><p>百度视频。</p>
+<p>直播和视频栏目不错，视频资源也比较丰富。</p>
+</li>
+<li><p>TED &amp;&amp; 网易公开课。</p>
+<p>Moocer必备。</p>
+</li>
+<li><p>Youtube。</p>
+<p>观看订阅的视频。需要翻墙。</p>
+</li>
+</ol>
+<h3>翻墙</h3>
+<ol>
+<li><p>fqrouter2.</p>
+<p>无需设置，无需root，一键翻墙，很好很强大，强烈推荐。</p>
+</li>
+<li><p>vpn。</p>
+<p>如果有账号，可以使用安卓自带的vpn服务，全局翻墙，很好用。</p>
+</li>
+<li><p>ProxyDroid。</p>
+<p>这个应用是用来设置全局代理的，跟PC端的Proxifier很类似。我就是用这个应用突破校园网流量限制的。</p>
+</li>
+</ol>
+<h3>团购</h3>
+<ol>
+<li>美团。</li>
+<li>糯米。</li>
+</ol>
+<h3>生活工具</h3>
+<ol>
+<li><p>雅虎天气 &amp;&amp; 中华万年历。</p>
+<p>前者非常漂亮优美，后者特别适合中国用户的使用习惯。我刚刚从后者转到前者。</p>
+</li>
+<li><p>Holo Compass。</p>
+<p>指南针，遵从安卓设计标准，简洁好用。</p>
+</li>
+<li><p>百度地图。</p>
+<p>虽然各种广告很烦人，但的确很强大很有用，尤其是公交和周边信息。</p>
+</li>
+<li><p>soso地图。</p>
+<p>中国做的最好的街景地图。</p>
+</li>
+</ol>
+<h3>效率工具</h3>
+<ol>
+<li><p>为知笔记。</p>
+<p>相对于Evernote，只会更智慧、更好用，我目前最宝贵的财富之一。</p>
+</li>
+<li><p>Wunderlist。</p>
+<p>GTD应用。打通各种客户端，同步很棒。界面非常漂亮。最近开始使用，推荐。</p>
+</li>
+<li><p>谷歌日历。</p>
+<p>做计划、做提醒神马的，神器，同步强大。</p>
+</li>
+</ol>
+<h3>图片</h3>
+<ol>
+<li><p>flickr。</p>
+<p>注册即送1T容量，所有图片无损无压缩，展示方式很漂亮，可以发现无数的优美图片，也可以关注朋友。雅虎出品。</p>
+</li>
+<li><p>Instagram。</p>
+<p>图片社交应用，类似flickr，同样很好很强大。可以关注苍井空，也可以关注习近平。前段时间推出了短视频，更加强大了。</p>
+</li>
+</ol>
+<h3>音乐</h3>
+<ol>
+<li><p>网易云音乐。</p>
+<p>音乐应用的后起之秀，网易发力在做，迭代更新的很快，进步迅速。界面优美，乐库很全，音质也好，社交功能也很到位。很nice的一点，支持耳机线控操作。强烈推荐。</p>
+</li>
+<li><p>豆瓣FM。</p>
+<p>虽然我现在都是用网易云音乐，但还是推荐一下豆瓣FM，随机听音乐，匹配用户爱好，现在还加入了歌词，很赞。</p>
+</li>
+<li><p>酷狗音乐。</p>
+<p>感觉酷狗音乐很像当年的百度音乐，乐库最全但质量参差不齐。我听相声一般在这里找。</p>
+</li>
+</ol>
+<h3>其他</h3>
+<ol>
+<li><p>百度输入法。</p>
+<p>自认为是安卓上最好用的中文输入法，强大、轻盈、漂亮。美中不足的是用户个性词汇无法云备份，只能导出到手机内。</p>
+</li>
+<li><p>百度云。</p>
+<p>3T的容量，噢耶。文件、相册、短信、联系人同步，一直在用。还有很棒的手机找回功能。</p>
+</li>
+<li><p>支付宝。</p>
+<p>开通快捷支付，在手机上可以非常方便的购物、充值、买彩票。</p>
+</li>
+<li><p>下厨房。</p>
+<p>Cooking必备。</p>
+</li>
+<li><p>chrome。</p>
+<p>最好的浏览器，没有之一。斯认为最牛的地方是同步。</p>
+</li>
+<li><p>calculator。</p>
+<p>好多数学符号很难打出来？试试这个吧，手写输入。</p>
+</li>
+<li><p>WPS。</p>
+<p>我PC和安卓都用的WPS，免费、好用。</p>
+</li>
+</ol>
+]]></content>
+    <category scheme="http://zipperary.com/categories/IT杂谈/" term="IT杂谈"/>
+  </entry>
+  <entry>
+    <title type="html"><![CDATA[开学两周间]]></title>
+    <link href="http://zipperary.com/2013/09/15/2-weeks-here/"/>
+    <id>http://zipperary.com/2013/09/15/2-weeks-here/</id>
+    <published>2013-09-15T15:06:34.000Z</published>
+    <updated>2013-09-15T15:34:56.000Z</updated>
+    <content type="html"><![CDATA[<p><img src="http://ww4.sinaimg.cn/large/5e8cb366jw1e8nltbqp8aj20sg0iymzg.jpg" alt=""></p>
+<p>这些天一直没更新博客，实在想念这个地方了，今晚无论如何也要写点东西，生拼硬凑也要写。</p>
+<p>我们学校一个奇葩的地方是来了两周都还没有上课，明天周一才开始。这两周间除了零星办理一些学校相关的程序事务，基本上都是靠网络活过来。对于我来说，一来学习的氛围不浓、兴趣也不大，二来也给自己找了一个很reasonable的借口：玩过这两周之后将是无绵无尽的学业和职业了。</p>
+<a id="more"></a>
+
+<p>两周前还在家的时候，我每天从早到晚的学习，电影都没兴趣看了。学习一个知识的时候，可以很好的保持专注，思维的连续性也好。虽然由于愚钝没有提高多少，但那种努力和充实的感觉真的很不错。对比这两个周，大好的时光，很少冗事叨扰，却浑浑噩噩，没有计划，没有约束，实在堕落的很呢。任何借口也掩盖不了这种空虚和失落感。再想到一把年纪了还没有把另一半找到，一把鼻涕一把辛酸泪啊！</p>
+<p>所有学习的时间，基本上都是小王带着去自习室才产生的。但由于良好的上网条件和舒适的环境，分了一部分的心神给我的S3.读《Web开发敏捷之道》和《Go语言编程》（不要喷我，我实在借不到python…），时间上的不连续造成思维上的断节，效果不怎么好。而且吧，整个假期都是电子阅读，现在突然发现看纸质书各种不方便。</p>
+<p>上网呢，室友告诉我有校内代理这回事，然后我附带神器Proxifier热心推广了下，积攒人品。顺便告诉看官，安卓上的ProxyDroid有同样作用（感谢知乎君）。</p>
+<p>人呢，觉得我接触到的都很nice，非常幸运。</p>
+<p>在京的朋友呢，接待了好几个了，感情还是那么好，以后在同城更方便了。</p>
+<p>选课呢，特别感谢葛同学和郑同学的热心帮忙。同时悔恨自己人品不济，居然没选上数学。没有数学的日子可怎么活！</p>
+<p>北外呢，呃。。我为什么会说这么一句。。我想说北外的游泳馆和图书馆很棒，就这些。</p>
+<p>博客虽然更新不勤，但依然有朋友在这里留言交流，这是我的荣幸。我很珍爱这块自留地，一定不会浪费掉。</p>
+<p>手机呢，用现在的CM10.1RC2，稳定、流畅、轻便、漂亮、无bug，偶尔会盯着屏幕孤芳自赏。</p>
+<p>电影呢，去影院看了《了不起的盖茨比》，非常喜欢。在宿舍看了《白鹿原》，我这智商无法脑补到可以理解剧情的地步。。</p>
+<p>明天就要开始上课了，希望自己能认真听课、记录、消化、整理，有价值的尽量写出来分享。</p>
+]]></content>
+    <category scheme="http://zipperary.com/categories/生活/" term="生活"/>
+  </entry>
+  <entry>
+    <title type="html"><![CDATA[悄悄告诉你]]></title>
+    <link href="http://zipperary.com/2013/09/10/qiao-qiao-gao-su-ni/"/>
+    <id>http://zipperary.com/2013/09/10/qiao-qiao-gao-su-ni/</id>
+    <published>2013-09-10T07:58:37.000Z</published>
+    <updated>2013-09-10T12:44:20.000Z</updated>
+    <content type="html"><![CDATA[<p>传说很多高校的学生都有一种默默的心酸叫做「限流量上网」。我也曾心酸过，但自从知道、使用了好心人提供的工具，腰不酸了，腿不痛了，走路也有劲了，上网也自由了。</p>
+<p>学校都有一些服务器是不需要限流量的，那么可以利用一部分资源，做个局域网代理。校内用户使用此代理，再通过这个服务器跟校外通信，就可以不登录校园网账号自由上网了。</p>
+<a id="more"></a>
+
+<p>具体的设置方法，请看下图：</p>
+<p><img src="http://ww3.sinaimg.cn/large/5e8cb366jw1e8hoj070vlj20gb0ezacf.jpg" alt=""></p>
+<p>填上地址和端口号就能上网了。</p>
+<p>但这样可能会有一个问题，其他客户端软件（如QQ、为知笔记、百度云）无法联网。我在网上Google出一个特别好的解决方案：安装Proxifier实现全局代理。</p>
+<p>软件地址：<a href="http://pan.baidu.com/share/link?shareid=330345327&amp;uk=1661888259" target="_blank">http://pan.baidu.com/share/link?shareid=330345327&amp;uk=1661888259</a></p>
+<p>使用方法：安装好之后，在<code>配置文件-代理服务器</code>中添加一个代理服务器即可，把地址和端口号填写完备。如果有些网站我不想走这个代理，可以通过<code>配置文件-代理规则</code>添加一条规则，上面已经有一两条了，可以仿照着写。</p>
+<p>关于使用局域网代理，再使用其他代理FQ的问题。在实验室试了几种方法都不成功，回寝室后用笔记本上的Goagent完全没问题。</p>
+<p>悄悄的听，切不可声张，嘘…</p>
+<p>下午去游泳，我这种体型漂浮有困难，且容易发冷。出来去吃「没名儿生煎」，好吃！只不过我配的西红柿鸡蛋盖饭略显屌丝。。</p>
+]]></content>
+    <category scheme="http://zipperary.com/categories/IT杂谈/" term="IT杂谈"/>
+  </entry>
+  <entry>
+    <title type="html"><![CDATA[进实验室了]]></title>
+    <link href="http://zipperary.com/2013/09/09/into-lab/"/>
+    <id>http://zipperary.com/2013/09/09/into-lab/</id>
+    <published>2013-09-09T15:03:34.000Z</published>
+    <updated>2013-09-09T15:29:10.000Z</updated>
+    <content type="html"><![CDATA[<p>下午去找导师，讨论完选课事务后，老师为我们分配了实验室的座位。五个人，很可怜地被割裂到三个不同的实验室里面。当然，这主要是和研究方向有关系。我和蒋被分配到一个新的实验室，里面只有桌椅，其余都没有。邸老师和几个学长带头打扫完卫生之后，导师带我们提了两台全新未开封的戴尔台式机，并且指定邸老师搬过去带着我们这几个新手菜鸟。实验室像一片处女之地，各项都是原始状态。我和蒋去买插排、配钥匙，找hub，搞网线，装机器。这个过程中，刘老师、邸老师给予的帮助非常令我感动，几个路过的学长各种悉心指导、帮忙测试网线，so helpful so nice。</p>
+<p>机器是全新的，品牌是戴尔，够硬，i7,4G内存，4GHz，正版预装windows7 professional。键盘、鼠标都无可挑剔。</p>
+<p>我俩是这个实验室的头两号客人，桌子全是空的，可以随意挑。</p>
+<p>有空调。（很多实验室是没空调的）</p>
+<p>唯一的缺点，隔壁是服务器房，有点吵。</p>
+<p>邸老师将和我们在一个实验室里，人很nice，年轻，平易近人。</p>
+<p>刘老师长的nice，人也nice，工作也非常勤奋，饭点一个人在实验室工作。</p>
+<p>笔记本里的很多东西都需要迁移过去，还好有云。</p>
+<p>有了不限流量的上网方式，噢耶！</p>
+]]></content>
+    <category scheme="http://zipperary.com/categories/生活/" term="生活"/>
+  </entry>
+  <entry>
+    <title type="html"><![CDATA[开学后的第一个周末]]></title>
+    <link href="http://zipperary.com/2013/09/08/first-weekend-in-bit/"/>
+    <id>http://zipperary.com/2013/09/08/first-weekend-in-bit/</id>
+    <published>2013-09-08T10:11:22.000Z</published>
+    <updated>2013-09-08T10:54:10.000Z</updated>
+    <content type="html"><![CDATA[<p>最近恐怕没法写技术文了，没有开课，也没有确定教学计划，每天都不知道有没有事。终于到了周末，起码有一点确定了：这两天的时间都是自由的。</p>
+<p>周六上午和舍友去「寻找自行车」，根据可靠消息，我们步行去人大西门，经过没有红绿灯的苏州桥底，通过天桥到西三环外围，来回搜寻自行车店的存在。最后终于在一个不太起眼的地方追查出来，是个「捷安特」的专卖店，基本价八百，有「永久」牌的，400，划痕明显，全新的还要加钱。看起来十分的不靠谱，于是作罢，折返学校。中间经过学校里面的「国际教育交流中心」，去保龄球馆看了下，基本确定这是贵族运动。我等无产阶级默默退出。</p>
+<a id="more"></a>
+
+<p>中午在美团团了两张电影票，下午睡过头了，醒来去王府井和小王去看《了不起的盖茨比》。趁机转了下被臭豆腐污染的小吃街和著名的「王府井书店」，让一个文科女陪我看IT书，太不人道了。到点进去看电影，3D版，视觉上的立体效果非常赞，上世纪二十年代美国纽约的奢华也用极其华美的画面表现出来，雷奥纳多还是那么有气场有魅力，Spiderman成了电影的中心人物之一以及故事的讲述者，Daisy很漂亮，故事嘛，看完之后有点淡淡的忧伤233，为主人公盖茨比的遭遇。3D电影每次戴上眼镜后屏幕就特别暗，暗到看字幕很费劲，对于这种国外大片，每次我都会遗漏很多的字幕，所以看完后往往会有疑问。由于电影很精彩，我希望把小说读一下，图书馆没有我喜欢的译本的纸质书，只能在网上找找看电子书了。电影看完后，出来吃了点饭，看了看衣服，就回来了。玩的很nice。</p>
+<p>午夜时手机中移动的信号突然为零，怎么折腾都无济于事，差点失眠，我应该骂中移动呢还是CM呢？</p>
+<p>今晨准备和同学叙旧，对方没空，于是拉同学一起出去玩，傍晚回来时，脚酸痛，天灰灰。大家一致感叹，北京不过如此嘛！看来出去玩一定要带上妹子，一群男的不太会玩。</p>
+<p>这两天很为移动卡烦恼：贵、套餐里面的3G白白浪费（谁有TD手机！），信号不咋地，在宿舍和图书馆经常真空。联通的3G很爽，各项还便宜。换的不方便有三：一是我移动号太好了，舍不得扔掉；二是还要各种通知各种叨扰朋友们；三是天知道联通的新生优惠活动还有木有。。</p>
+]]></content>
+    <category scheme="http://zipperary.com/categories/生活/" term="生活"/>
+  </entry>
+  <entry>
+    <title type="html"><![CDATA[「100天行动计划」结束]]></title>
+    <link href="http://zipperary.com/2013/09/05/100-days-completed/"/>
+    <id>http://zipperary.com/2013/09/05/100-days-completed/</id>
+    <published>2013-09-05T13:54:29.000Z</published>
+    <updated>2013-09-05T14:30:38.000Z</updated>
+    <content type="html"><![CDATA[<p>100天以前，我还在家的时候，受warfalcon鼓舞参与他发起的100天行动计划。之前一直在「坚持」这两个字上做的比较差（考研除外），正好借此机会训练一下。其实也没有多少信心，类似的行动计划已经开始过很多次了，都了了而终。但这次有些不同，其一是warfalcon我比较了解和信任，其二是这个号召响应的人很多，有一堆人跟你一起坚持做一个事是很大的动力。</p>
+<p>至于这100天之内要坚持做哪些事，完全可以自定。我结合自身的情况，定下了四件事：</p>
+<ol>
+<li><p>早起。</p>
+<p>早睡早起对身体好，精神状态也好。</p>
+</li>
+<li><p>锻炼身体。（深蹲和俯卧撑）</p>
+<p>强身健体，顺便长点肌肉。在家没有跑步的条件，各种球也没法打，只能在室内做这些了。</p>
+</li>
+<li><p>扇贝GRE单词。</p>
+<p>对于计算机从业者，英语特别重要。每天复习一定量的单词，保持对英语的感觉。同时这个app的签到机制也让人挺有动力的。</p>
+</li>
+<li><p>写博客。</p>
+<p>无数次开始写日志、写日记、写博客，半年之后发现只表了决心开了头，后面全是空白，深深自责不争气。这次虽然信心不太大，却还想试一试。</p>
+</li>
+</ol>
+<a id="more"></a>
+
+<p>今天是第100天，这个计划行将结束，在此总结一下完成情况：</p>
+<ol>
+<li><p>基本挂掉了，坚持了最多十几天。一方面是自己的毅力问题，一方面家里的环境要做到这点有些困难。对于没有完成，我也不想苛责自己了。</p>
+</li>
+<li><p>完成度有五成以上。不需要花多少时间，做完之后全身都很舒服。对于没有完成的任务，一个原因是我在楼下干活之后便没再做这个，另一个原因就是懒，不想花力气，这一点需要责备自己。遗憾的是，肌肉木有增加，233</p>
+</li>
+<li><p>这个基本上圆满完成。每天五十个单词，十来分钟的样子，打开手机就能做，执行起来稍容易，阻力很小，所以完成的不错。来学校这几天手机上网多有不便，另外各种杂事太多，便没有坚持。我可耻的原谅自己吧。</p>
+</li>
+<li><p>每天一篇博客，百分之百完成。非常庆幸几乎在同一时间看到了warfalcon的号召，遇到了hexo这个博客系统，看到了很好的markdown教程。前者给我很大动力，后者为我写博客铺平了道路。我最初写的博客主要是关于hexo的，把自己折腾博客和域名的过程写出来与大家分享。当时折腾的认真，博客写的也比较认真，这些文章为我的博客赢得了不少的点击量、评论，更欣喜的是认识了好多新朋友。每天写一篇博客其实并不太容易，一来要有足够的摄入量，这样才能有输入；二来每天都要占去几十分钟来写博客；三来没有足够的时间进行沉淀便写了出来。这些博客的内容从分类目录就可以看出来，有技术相关的，有生活相关的，也有电影、阅读。博客的质量不高，但大多数是比较认真写的，质量问题只能追究我的水平问题了。尽管如此，我还是对于自己能坚持100天写原创博客这一点很是自豪，这是对自我的一个突破。</p>
+</li>
+</ol>
+<p>上面的计划完成之后，新的行动计划也应该要制定了。目前刚刚开学，各种事情还不确定，只能暂缓制定计划。单就博客来讲，以后没法做到每天一文了，也不想这样了。主要还是沉淀的不够。但无论如何，底线是一周至少一文。具体数量等下阶段的计划做好后就能确定了。</p>
+<p>最后，感谢warfalcon，感谢爸妈，感谢小王童鞋和所有朋友们，你们的参与和关注给了我很大的动力！</p>
+<hr>
+<p>爱打卡-100days-第100天-0001</p>
+]]></content>
+    <category scheme="http://zipperary.com/categories/生活/" term="生活"/>
+  </entry>
+  <entry>
+    <title type="html"><![CDATA[linux下常用命令]]></title>
+    <link href="http://zipperary.com/2013/09/04/linux-commands/"/>
+    <id>http://zipperary.com/2013/09/04/linux-commands/</id>
+    <published>2013-09-04T01:04:36.000Z</published>
+    <updated>2013-09-05T01:28:34.000Z</updated>
+    <content type="html"><![CDATA[<p><img src="http://ww3.sinaimg.cn/large/5e8cb366jw1e8bd5xw20jj20mm0gwgmy.jpg" alt=""></p>
+<p>linux的强大之处，很大程度上在于其丰富灵活的shell命令，但这一点恰恰也是阻碍初学者的老大难问题。这里是我学习linux命令时的笔记，不求全面，但求有用。先学会最基本最常用的命令，在使用中再逐渐积累。</p>
+<h3>shell命令行格式</h3>
+<p><code>命令 -l(选项) 参数</code>   </p>
+<p>没有参数的选项可以合并；命令之间用<code>;</code>隔开，依次执行；长选项用<code>--</code>;管道<code>|</code>可以串联执行。</p>
+<a id="more"></a>
+
+<h3>系统</h3>
+<p>md5sum+文件：    检验签名</p>
+<p>uname：    机器名    -a详细</p>
+<p>history：    命令历史 ；   +10执行第十个</p>
+<p>sudo+命令： 超级权限</p>
+<p>su moxie： 进入超级用户moxie</p>
+<p>passwd：    改密码</p>
+<p>alias l=‘ls -l’：    命令别名  ；  unalias l可以取消</p>
+<p>man bla：    帮助</p>
+<p>bla —help</p>
+<p>whereis ls：   ls 二进制文件的路径</p>
+<p>ps：    列出进程</p>
+<p>top：    显示cpu信息</p>
+<p>free ：   跟踪内存的使用信息    b以B显示    k以KB显示    h易读的格式</p>
+<p>kill 5721 ：   杀掉该进程</p>
+<p>service bla start：    启动服务    restart、stop</p>
+<p>apt-get install bla：    包管理类似pip    update升级</p>
+<p>mkpasswd  20：    生成随机密码，长度为20 ???</p>
+<p>cal：    日历    02 2000</p>
+<p>date：    日期    —set设置</p>
+<h3>文件</h3>
+<p>ls：    列出文件夹、文件    -l  -a</p>
+<p>lsof：    显示打开的文件</p>
+<p>lsblk：    列出块设备  -l列表形式</p>
+<p>df：    磁盘使用情况</p>
+<p>mount 分配名 目录 ：   将设备挂在到指定目录</p>
+<p>pwd：    print working directory</p>
+<p>cd /foo：    改变当前路径    ~    .. . -</p>
+<p>mkdir bla：    文件夹</p>
+<p>touch bla：    更新时间戳，如果没有，创建</p>
+<p>cat a b &gt;&gt;c：    连接ab成c，如果没有c会创建。如果只有a，则显示。    -n行号    cat &gt;&gt;c然后可以输入内容</p>
+<p>paste a b &gt;&gt;c：    另一种方式连接</p>
+<p>cp bla /foo：    复制</p>
+<p>mv……………：    移动，也可以单文件重命名</p>
+<p>rm bla foo：    删除    -rf删除目录</p>
+<p>rename a b *sh：    多文件重命名，所有sh后缀的文件中的a换成b</p>
+<p>cmp foo bar：    比较两个文件</p>
+<p>chmod 777 bla：    改权限</p>
+<p>chown a:b bla：    改用户和组</p>
+<p>find -iname *.sh：    搜索目录和子目录下的文件，i为忽略大小写</p>
+<p>grep bla /foobar：    搜索文件中包含bla的行    i忽略大小写    r递归搜索    c统计    color着色</p>
+<h3>网络</h3>
+<p>wget url：    下载</p>
+<p>ifconfig：    检查活动路由器    a所有    eth0 down停用    up启用  </p>
+<p>netstat：    各种网络相关信息    a所有    t为tcp    s为连接的    c动态输出</p>
+<p>dig 某域名：    查询。。。</p>
+<p>uptime：    服务器无人值守时发生了什么</p>
+<p>w：    uptime和who的组合命令</p>
+<p>wall “bla”：    发送一条消息到登录端    类似的还有mesg write talk</p>
+<h3>源代码安装</h3>
+<ol>
+<li><p>tar文件解压</p>
+</li>
+<li><p><code>./configure --prefix=/usr</code>    设置安装到bla，生成makefile</p>
+</li>
+<li><p><code>make</code>    编译</p>
+</li>
+<li><p><code>make install</code>    安装</p>
+</li>
+</ol>
+<hr>
+<p>爱打卡-100days-第99天-0001</p>
+]]></content>
+    <category scheme="http://zipperary.com/categories/linux/" term="linux"/>
+  </entry>
+  <entry>
+    <title type="html"><![CDATA[VIM常用命令]]></title>
+    <link href="http://zipperary.com/2013/09/03/vim-commands/"/>
+    <id>http://zipperary.com/2013/09/03/vim-commands/</id>
+    <published>2013-09-03T00:46:19.000Z</published>
+    <updated>2013-09-05T01:33:40.000Z</updated>
+    <content type="html"><![CDATA[<p><img src="http://ww3.sinaimg.cn/large/5e8cb366jw1e8bd921gscj20j40j4wfy.jpg" alt=""></p>
+<p>之前写过<a href="http://zipperary.com/2013/08/24/vim-tips/">《vim使用中的几个问题》</a>这篇文章，介绍了vim使用中几个疑难杂症和一些tips。现在把我收藏的经常使用的VIM命令在这里列举一下。</p>
+<a id="more"></a>
+
+<h3>移动光标（普通模式下）</h3>
+<p>括号匹配：%</p>
+<p>同词： #和*    （整个单词，不是字符）</p>
+<p>词组： w b  e（词尾）</p>
+<p>行内：0 $      ^ g_       (f t下一个bla)</p>
+<p>跳行： :22</p>
+<p>翻页： ctrl + （fb ud）</p>
+<p>首尾： gg G</p>
+<p>查找： /word  （n查找下一个）</p>
+<p>block： [[和]]</p>
+<h3>修改</h3>
+<p>插入：o O（新行） ；   a（光标后）；i（光标前） ；r（光标处） ； (cw 到词尾)</p>
+<p>删除： x X  ； d（删除行） ；   ggdG全部删除</p>
+<p>撤销： u 或 ctrl+r</p>
+<p>复制：y ；    y$到最后</p>
+<p>粘贴：p</p>
+<p>大写：gU大写；   gu小写    (选中之后)</p>
+<p>替换： :%s/foo/bar</p>
+<h3>文件 （命令模式）</h3>
+<p>退出： w q ！；  ZZ ； :w文件 ； :x（后面加a表示所有文件）</p>
+<p>打开： e    （有参数，也可以创建新的）o也可以</p>
+<p>另存： saveas</p>
+<p>新建： enew    （无参数）</p>
+<hr>
+<p>爱打卡-100days-第98天-0001</p>
+]]></content>
+    <category scheme="http://zipperary.com/tags/vim/" term="vim"/>
+    <category scheme="http://zipperary.com/categories/IT杂谈/" term="IT杂谈"/>
+  </entry>
+  <entry>
+    <title type="html"><![CDATA[开学啦！]]></title>
+    <link href="http://zipperary.com/2013/09/02/kai-xue/"/>
+    <id>http://zipperary.com/2013/09/02/kai-xue/</id>
+    <published>2013-09-02T13:41:15.000Z</published>
+    <updated>2013-09-02T14:44:42.000Z</updated>
+    <content type="html"><![CDATA[<p>昨天早上六点钟的大巴车，到达北京的长途站时已经接近十点了。乘坐运通公交车折腾了一个多小时到达学校南门。走几步到达宿舍。下午购置各种生活用品。到了晚上累个半死。没网。今天正式报到。送了两张手机卡，一张移动的，余额为负，一张移动的，完全不能用，这倒霉劲儿。网络中心人超多，想去开通上网账号咋办！中午吃饭时跟同学聊这个事，同桌的一个学生非常热心地告诉我们可以去留学生中心办。仿佛冬天里瑟瑟缩缩时的一碗热汤。去中心办，不排队，秒成。下午去找导师开会，几个同学认识了一下。之后本科同学请我吃饭，说要尽地主之谊，我可耻地答应了，以后找机会反请。晚上回来，上网。</p>
+<p>上面啰嗦了一堆，主要想记录一下开学大致过程，两年半后再看看。</p>
+<p>重点来了。</p>
+<p>一个月10G的流量，我抱怨没法看直播。舍友热心地告诉我，有个东西叫IPV6，有个站点叫<a href="http://6rank.edu.cn/" target="_blank">http://6rank.edu.cn/</a>。这个可以不登账号直接看直播，还是高清资源。我打开一看，艾玛，这品质这速度，感动的热泪盈眶，以后非诚勿扰有着落了。</p>
+<p>说说对学校的初印象吧。</p>
+<p>宿舍比较小，这是大家的普遍感觉。上铺下桌，而且由于特殊设计，桌子上边比较昏暗，没有台灯很不人道。有阳台，挂衣服的杆子太高，人手达不到。有个小电扇，环视整个宿舍，还好这几天北京凉快了。卫生工具一概没有。床铺旁边没有插座，很不人道。每个楼层有公共浴室、厕所和饮用热水，现在不刷卡也能放水，是不是对新生的优待？宿舍二十来层，我住二层，从此与电梯无缘。公寓楼位置十分尴尬，在学校西南一角，距离教室和地铁四号线都有一顿恶走的距离。学校各建筑位置关系十分令人困扰，我本科同学来一年了，还是好多地方叫不上来。学校以体育馆和两个操场为中心，其中一个操场是真草皮，北理工足球队专用训练场，隔三差五有比赛，同学们可牵着妹妹的手自行观摩。这是甲级联赛中唯一一支大学足球队，我骄傲我自豪！食堂数量快突破个位数了，我对美食与美女从不反感。一街之隔是北外，北理男可以和北外女隔空对喊「我爱你」。再走几步是中央民族大学，还没去过。北外的建筑比我校好看多了，哎。同学给我展示了附近可以聚会吃饭的地方，我表示，我胃不好，请容我少喝点。</p>
+<p>今天听说两周后才开始上课，不错嘛！</p>
+<p>明天开个新生欢迎会，综观一下本专业的一百多个新生。</p>
+<p>有网了，有些事要处理，就写到这里吧。</p>
+<hr>
+<p>爱打卡-100days-第97天-0001</p>
+]]></content>
+    <category scheme="http://zipperary.com/categories/生活/" term="生活"/>
+  </entry>
+  <entry>
+    <title type="html"><![CDATA[安卓4.2那些事]]></title>
+    <link href="http://zipperary.com/2013/09/01/android-422/"/>
+    <id>http://zipperary.com/2013/09/01/android-422/</id>
+    <published>2013-09-01T07:10:07.000Z</published>
+    <updated>2013-08-31T08:01:16.000Z</updated>
+    <content type="html"><![CDATA[<p>前几天的博文<a href="http://zipperary.com/2013/08/26/smartisan-share/">《锤子ROM图鉴》</a>和<a href="http://zipperary.com/2013/08/27/gai-shi-san-shua-ji-shou-ji/">《安卓4.3，我来啦！》</a>都提到了最近刷机的事。刷完4.3之后在使用过程中，发现了一个极其严重的问题：ActionBar变黑。这个问题会出现在很多应用中，比如微博、SN、Pocket。去xda-developers求解，发现了CM官方对这个问题的解答。「这东西有版权问题，刚刚着手开发的CM10.2还没有把版权搞定」。看来我的尝鲜有点早了，CM10.2（Android4.3）第一个公开发行的Nightly版本诞生还不足半个月，注定有很多很多的bug，我不知不觉做了一次小白鼠。</p>
+<p>在OTA更新过程中，发现了前天刚刚发布的CM10.1RC。看了下新闻才知道，CM准备停止CM10.1（Android4.2）的开发工作，全面投入到10.3当中去。这个版本是10.1的Candidate Release版本，也就是最终版之前的一个版本，基本稳定，用户可以使用。看到消息后我十分欣喜，决定把ROM刷成这个。首先这个版本非常稳定，其次，安卓4.3和4.2之间的变化微乎其微，上述这个版本甚至把4.3中的一些东西也迁移过来，更佳了。</p>
+<p>于是我就用OTA下载并升级。重启并升级之后，竟然卡在开机界面不动了，卡顿了十来分钟，已经能确定手机变砖了。一身冷汗，我的数据咋办，还没备份。没办法，再刷回4.3吧。回来之后惊喜地发现，所有数据都还保留着。感谢苍天和大地！</p>
+<p>google一下才发现，CM警告过，不要用OTA刷回到4.2。</p>
+<p>只有一个办法了：备份数据、刷4.2。</p>
+<p>我愚蠢地再次使用了钛备份。双清刷4.2很快。开机之后要恢复数据傻眼了，钛备份根本不能识别它备份过的数据！欲哭无泪。几十个应用，重新安装吧。顺便把账号和密码都复习一遍。</p>
+<p>在各种应用各种设置中进行测试，几乎没有什么bug了，不愧是稳定版。Except one:链接wifi后打开QQ，总是需要延迟好长时间才能登录，用GPRS就没有这个问题。在网上搜了一下，发现好多人遇到过这种问题，而且问题所在应该是QQ使用特殊的网络协议造成的。</p>
+<p>CM对原生安卓所做的改变主要是功能上的增强和人性化上的提升，UI很好的保留了原生安卓的样式。对于这个ROM我的感受是：轻、快、灵活、简洁、漂亮。（谷歌风格的漂亮，而不是小米风格的华丽丽）</p>
+<p>还有一个优点是省电。前提是不要开启「自动同步」和「Google服务框架」。否则最耗电的不是屏幕了，而是google服务。</p>
+<p>分享几个截图，用微博图床，不会挂了:)</p>
+<a id="more"></a>
+
+<p><img src="http://ww3.sinaimg.cn/large/5e8cb366jw1e85w6tmsy5j214u104tga.jpg" alt="锁屏与桌面"></p>
+<p><img src="http://ww4.sinaimg.cn/large/5e8cb366jw1e85w8o6e2hj214u1040yo.jpg" alt="应用抽屉与下拉菜单"></p>
+<p><img src="http://ww4.sinaimg.cn/large/5e8cb366jw1e85w9tqojoj214u104qa9.jpg" alt="Google+与Youtube"></p>
+<p><img src="http://ww3.sinaimg.cn/large/5e8cb366jw1e85wak10zhj214u104jzj.jpg" alt="Twitter与Jelly Bean"></p>
+<hr>
+<p>爱打卡-100days-第96天-0011</p>
+]]></content>
+    <category scheme="http://zipperary.com/categories/IT杂谈/" term="IT杂谈"/>
+  </entry>
+  <entry>
+    <title type="html"><![CDATA[轻松搞定Markdown]]></title>
+    <link href="http://zipperary.com/2013/08/31/easy-markdown/"/>
+    <id>http://zipperary.com/2013/08/31/easy-markdown/</id>
+    <published>2013-08-31T03:32:54.000Z</published>
+    <updated>2013-08-31T05:02:26.000Z</updated>
+    <content type="html"><![CDATA[<p><img src="http://ww2.sinaimg.cn/large/5e8cb366jw1e85r40u55hj20b40b4q2x.jpg" alt=""></p>
+<p>之前写过<a href="http://localhost:4000/2013/05/22/introduction-to-markdown/" target="_blank">《Markdown指南》</a>和<a href="http://localhost:4000/2013/06/06/markdown-extras/" target="_blank">《markdown 番外篇》</a>用来介绍Markdown，前者是入门资料索引，后者是几个稍微高级的用法，都只是介绍了片面，不太好。</p>
+<p>使用Markdown写博客已经三个月了，对这个标记语言很是喜欢。现在流行的教程，要么就是太复杂太难以理解，要么就是太简单太肤浅，稍微高级点的用法没有提及。本文的初衷就是用最容易理解的方式，把Markdown入门到高级用法一一介绍给读者。看完之后，你不仅可以开始使用Markdown写东西，在日常使用中也随时可以打开这篇博客参考各种用法。</p>
+<a id="more"></a>
+
+
+<p><strong>为什么学习Markdown？</strong>别问为什么，尽管学习就好了。这么简单的东西，一会就能学会，受益可能终生，太值了。</p>
+<p><strong>怎么学习Markdown？</strong>我认为最好的方法是通过示例，本文正式采用这样的方法。</p>
+<p><strong>在哪可以使用Markdown？</strong> 你可以在<a href="http://jianshu.io/" target="_blank">简书</a>、<a href="http://logdown.com/" target="_blank">Logdown</a>这样的免费平台用Markdown写博客。如果你愿意折腾，也可以像我一样，使用hexo搭建自己的博客，并用Markdown书写博客，请参考拙作<a href="http://zipperary.com/categories/hexo/">《hexo系列教程》</a>。另外，现在写论文也流行使用Markdown，不学你就out了！</p>
+<p><strong>怎样开始？</strong>打开<a href="http://ghosertblog.github.io/mdeditor/" target="_blank">这个网址</a>，把下面学到的东西在这个里面练习。左侧是Markdown，右侧是实时的显示。</p>
+<p><strong>还要注意什么？</strong>一个效果，有时候可以通过不同的方式生成，比如无序列表可以用<code>- + *</code>。本文从实践出发，只列举最好用的一种。读者也只需要学习一种。</p>
+<p>以下是Markdown代码：</p>
+<figure class="highlight lang-markdown"><table><tr><td class="gutter"><pre>1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+</pre></td><td class="code"><pre><span class="header">#这里是一级标题</span>
+<span class="header">###这里是三级标题</span>
+<span class="header">######这里是六级标题，就到这里了，木有七级！</span>
+
+
+
+段落前面没有缩进，看到了吧。
+
+　　要想使用缩进，在中文输入法中改成「全角」输入，再按两个空格
+
+行尾一个回车换行，显示效果依然是是一行。
+我说的对吧~
+
+想要分成两行，需要在行尾输入两个空格。  
+我说的对吧~
+
+想要开始一个新的段落，乖乖的按两下回车吧
+
+我说的对吧~
+
+
+
+
+<span class="strong">**两个星号包围的是粗体**</span>
+
+<span class="emphasis">*一个星号包围的是斜体*</span>
+
+<span class="blockquote">&gt; 引用内容，多行的话，用两个空格结尾吧  </span>
+是吧~
+
+
+
+<span class="code">`反引号包围的是行内代码`</span>，这个按键在「Tab」上边
+
+<span class="code">``嵌套的话，可以使用`</span>两个双引号<span class="code">`嵌套在外面`</span>`
+
+<span class="code">```</span>python
+<span class="header">#三个反引号包围的是代码块。</span>
+<span class="header">#会显示行号。</span>
+<span class="header">#也有高亮显示</span>
+<span class="header">#我上面加了python，你也可以不加。如果不能高亮，那么还是加上吧。。另外，如果你的代码块包围的是html，那你应该写html而不是python</span>
+import os
+print os.sep
+<span class="code">```</span>
+嵌套的话，可以使用六个反引号嵌套在外面。
+
+
+
+
+<span class="bullet">1. </span>有序列表1，注意点之后的空格。
+<span class="bullet">2. </span>有序列表2.
+<span class="bullet">1. </span>我这里写成1，在显示时还是3，厉害不。
+
+<span class="bullet">1. </span>有序列表1
+ 详细内容，注意前面有一个空格
+<span class="bullet">2. </span>有序列表2
+ 详细内容
+
+<span class="bullet">- </span>无序列表1
+<span class="bullet">- </span>无序列表2
+<span class="bullet">- </span>无序列表3
+ - 小1，注意前面有一个空格
+ - 小2
+
+
+
+超级链接：<span class="link_label">[我的博客]</span>(<span class="link_url">http://zipperary.com</span>)
+
+插入图片：!<span class="link_label">[好看不]</span>(<span class="link_url">http://ww2.sinaimg.cn/large/5e8cb366jw1e62o63tkv3j20dh078q5a.jpg</span>)
+
+另外，markdown完全兼容html，你可以用html插入这些东西，例如：
+
+<span class="xml"><span class="tag">&lt;<span class="title">iframe</span> <span class="attribute">height</span>=<span class="value">498</span> <span class="attribute">width</span>=<span class="value">510</span> <span class="attribute">src</span>=<span class="value">"http://player.youku.com/embed/XMjI2MjU3MDMy"</span> <span class="attribute">frameborder</span>=<span class="value">0</span> <span class="attribute">allowfullscreen</span>&gt;</span></span><span class="xml"><span class="tag">&lt;/<span class="title">iframe</span>&gt;</span></span>
+
+
+~~删除线~~
+
+
+分割线用<span class="code">`---`</span>，注意单独一样，上面必须是一个空行
+
+<span class="horizontal_rule">---</span>
+
+更多高级的格式，请果断插入html标签
+</pre></td></tr></table></figure>
+
+<p>以下到结尾处是效果：</p>
+<h1>这里是一级标题</h1>
+<h3>这里是三级标题</h3>
+<h6>这里是六级标题，就到这里了，木有七级！</h6>
+<p>段落前面没有缩进，看到了吧。</p>
+<p>　　要想使用缩进，在中文输入法中改成「全角」输入，再按两个空格</p>
+<p>行尾一个回车换行，显示效果依然是是一行。<br>我说的对吧~</p>
+<p>想要分成两行，需要在行尾输入两个空格。<br>我说的对吧~</p>
+<p>想要开始一个新的段落，乖乖的按两下回车吧</p>
+<p>我说的对吧~</p>
+<p><strong>两个星号包围的是粗体</strong></p>
+<p><em>一个星号包围的是斜体</em></p>
+<blockquote>
+<p>引用内容，多行的话，用两个空格结尾吧<br>是吧~</p>
+</blockquote>
+<p><code>反引号包围的是行内代码</code>，这个按键在「Tab」上边</p>
+<p><code>嵌套的话，可以使用`两个双引号`嵌套在外面</code></p>
+<figure class="highlight lang-python"><table><tr><td class="gutter"><pre>1
+2
+3
+4
+5
+6
+</pre></td><td class="code"><pre><span class="comment">#三个反引号包围的是代码块。</span>
+<span class="comment">#会显示行号。</span>
+<span class="comment">#也有高亮显示</span>
+<span class="comment">#我上面加了python，你也可以不加。如果不能高亮，那么还是加上吧。。另外，如果你的代码块包围的是html，那你应该写html而不是python</span>
+<span class="keyword">import</span> os
+<span class="keyword">print</span> os.sep
+</pre></td></tr></table></figure>
+
+<p>嵌套的话，可以使用六个反引号嵌套在外面。</p>
+<ol>
+<li>有序列表1，注意点之后的空格。</li>
+<li>有序列表2。</li>
+<li>我这里写成1，在显示时还是3，厉害不。</li>
+</ol>
+<ol>
+<li><p>有序列表1</p>
+<p>详细内容，注意该行和上面一行，前面有一个空格</p>
+</li>
+<li><p>有序列表2</p>
+<p>详细内容</p>
+</li>
+</ol>
+<ul>
+<li>无序列表1</li>
+<li>无序列表2</li>
+<li>无序列表3<ul>
+<li>小1，注意前面有一个空格</li>
+<li>小2</li>
+</ul>
+</li>
+</ul>
+<p>超级链接：<a href="http://zipperary.com">我的博客</a></p>
+<p>插入图片：</p>
+<p><img src="http://ww2.sinaimg.cn/large/5e8cb366jw1e62o63tkv3j20dh078q5a.jpg" alt="好看不"></p>
+<p>另外，markdown完全兼容html，你可以用html插入这些东西，例如：</p>
+<iframe height=498 width=510 src="http://player.youku.com/embed/XMjI2MjU3MDMy" frameborder=0 allowfullscreen></iframe>
+
+
+
+<p><del>删除线</del></p>
+<p>分割线用<code>---</code>，注意单独一行，上面必须是一个空行</p>
+<hr>
+<p>更多高级的格式，请果断插入html标签</p>
+<hr>
+<p>爱打卡-100days-第95天-0011</p>
+]]></content>
+    <category scheme="http://zipperary.com/tags/markdown/" term="markdown"/>
+    <category scheme="http://zipperary.com/categories/hexo/" term="hexo"/>
+  </entry>
+  <entry>
+    <title type="html"><![CDATA[强大的rails]]></title>
+    <link href="http://zipperary.com/2013/08/30/qiang-da-de-rails/"/>
+    <id>http://zipperary.com/2013/08/30/qiang-da-de-rails/</id>
+    <published>2013-08-30T11:20:17.000Z</published>
+    <updated>2013-08-31T03:16:16.000Z</updated>
+    <content type="html"><![CDATA[<p><img src="http://ww1.sinaimg.cn/large/5e8cb366jw1e85o6gmq6cj211y0kq0wa.jpg" alt=""></p>
+<p>Ruby的入门，在<a href="http://zipperary.com/2013/08/28/ruby-on/">Ruby走起</a>一文之前就结束了。这两天各种闲杂之事，断断续续的学习了一些rails的知识。主要参考了地瓜哥的<a href="http://www.diguage.com/archives/tag/ruby" target="_blank">《Agile Web Development with Rails》抄书笔记</a>系列文章。rails的入门教程，首推《Agile Web Development with Rails》这本书。这个系列的博客，是地瓜哥学习这本书的过程，不仅把书中的内容清晰的展示在博客中，同时把他自己遇到过的问题、解决的办法和发现的好资料都分享在这里，干货值非常高。rails的强大之处在于，只需要几个简单的命令，一个网站所需要的结构和文件都会自动创建，立即可以使用。如果需要，仅需修改默认值即可。这里概括一下基本的流程。</p>
+<a id="more"></a>
+
+<h3>安装</h3>
+<p>尽管前辈们都列出了<code>mac &gt; linux &gt;&gt; windows</code>，对于我来说，mac木有，linux折腾不起，还是win吧。windows用户有福了，安装特别简单。</p>
+<p><strong>下载并安装<a href="http://railsinstaller.org/" target="_blank">Rails Installer</a>。</strong></p>
+<p>这一步会安装好以下组件：<br>Ruby<br>Rails<br>Bundler<br>Git<br>Sqlite<br>TinyTDS<br>SQLServerSupport<br>DevKit</p>
+<p>安装好之后，进入终端，使用<code>ruby -v</code>和<code>rails -v</code>查看版本号。</p>
+<p>值得一提的是，对于中国用户，最好修改gem源，该用淘宝提供的镜像，速度刷刷的。</p>
+<p>在终端依次输入：</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre>1
+2
+3
+</pre></td><td class="code"><pre><span class="comment">gem</span> <span class="comment">sources</span> <span class="literal">-</span><span class="comment">l</span>
+<span class="comment">gem</span> <span class="comment">sources</span> <span class="literal">-</span><span class="literal">-</span><span class="comment">remove</span> <span class="comment">https://rubygems</span>.<span class="comment">org/</span> 
+<span class="comment">gem</span> <span class="comment">sources</span> <span class="literal">-</span><span class="comment">a</span> <span class="comment">http://ruby</span>.<span class="comment">taobao</span>.<span class="comment">org/
+</pre></td></tr></table></figure>
+
+<p>最后再<code>gem sources -l</code>，确保目前的镜像是淘宝的。</p>
+<h3>开发项目</h3>
+<p>从头开发一个项目，大概有这么几个流程：</p>
+<ol>
+<li><p><code>rails new demo</code> 新建一个项目，会在当前目录下生成项目的文件夹。然后就可以<code>rails s</code>运行服务器，打开终端提示的地址查看web。<em>后面的几个命令都需要切换到demo目录下执行</em></p>
+</li>
+<li><p><code>rails generate scaffold Product title:string description:text</code> 这个命令非常强大。我们知道，rails是MVC架构。这个命令会生成Product这个controller、相应的view、model，以及product数据表，并自动将这些组件进行关联。也就是说，生成这个数据表，以及跟数据表相关的各种操作功能。</p>
+</li>
+<li><p><code>rake db:migrate</code> rake命令有点像linux中的make，它会自动跟踪并查找没有执行过的迁移脚本，并执行迁移工作。对于我们这个例子，它的工作就是具体生成数据库及product表。</p>
+</li>
+<li><p><code>rake test</code> 自动执行测试工作，并报告测试结果。</p>
+</li>
+<li><p><code>rails s</code> 开启服务器，打开<a href="http://localhost:3000" target="_blank">http://localhost:3000</a>。你看到的绝对比你预想的多，这就是rails的强大。</p>
+</li>
+</ol>
+<p>以上列举了rails最常用的命令和整体的流程。具体开发过程中的技巧细节，需要跟着教程一点点的学习和练习。我在学习过程中也会及时分享，请关注这个catagory。</p>
+<p>顺便多说一句：Sublime Text真是太太太好用了！</p>
+<hr>
+<p>爱打卡-100days-第94天-0011</p>
+]]></content>
+    <category scheme="http://zipperary.com/tags/rails/" term="rails"/>
+    <category scheme="http://zipperary.com/categories/Ruby/" term="Ruby"/>
+  </entry>
+  <entry>
+    <title type="html"><![CDATA[长假总结]]></title>
+    <link href="http://zipperary.com/2013/08/29/chang-jia-zong-jie/"/>
+    <id>http://zipperary.com/2013/08/29/chang-jia-zong-jie/</id>
+    <published>2013-08-29T07:14:12.000Z</published>
+    <updated>2013-09-03T00:29:16.000Z</updated>
+    <content type="html"><![CDATA[<p>终于捱到了开学。这个假期不短，用我妈的话讲，「以前没有，以后也不会有了」，用我自己的话讲，「空前绝后的长」。这个长假虽然没有什么remarkable的事情，但在个人的生活轨迹中必定要占一个位子。长假要结束了，总觉得有必要在这里留下一些文字，继往开来。</p>
+<p>之前曾在<a href="http://zipperary.com/2013/07/13/wo-de-bu-wu-zheng-ye/">《我的不务正业》</a>中提到过这段时间的work。去年七八月份的时候辞职，在福建准备考研，年底回家，等候考试结果，准备复试，等候录取结果，真正的长假。除去前面和考研相关的一些事务，这个长假也足足有半年之久了。每每念及此事，对比这么长的时间跨度，这么大的轻松自由度，和这么小的成就指数，心里很不是滋味。</p>
+<p>这么长的时间，也想过做一些很美好很振奋人心的事：</p>
+<ul>
+<li>学车。小地方，极度不正规，人多驾校少，不给安排考试，拿下驾照一般都半年到一年，无数个咬牙切齿的例子，我不敢再趟进去了。</li>
+<li>实习。有段时间专门写简历投递过，也在知乎、微博上私信找实习机会，跟许多人聊过，基本上都是需要即将毕业的学生。太小的公司根本没有余力培养实习生。太大的公司要求实习时间至少半年。有人建议我撒个谎直接应聘工作，开学前再辞退。我心虚。</li>
+<li>打工挣钱。我专门在县城的各种报纸上查找过招聘信息，除了体力活就是贸易业务员。体力会就算了，这里的体力会一般跟丝网有关，又累又危险，工资还低的可怜。贸易业务员也算了吧，每天打烦人的电话、发垃圾广告信息，我最烦这种人，自己怎么能做得来呢。唯一跟专业沾点边的是做企业网站。打电话过去，刚刚成立的，一个技术人员都没有，老板让我从头做一个cms，还说的很轻松。我一听头都大了，不懂技术的老板真可怕。另外，这点工资能付清这样的工作呢。</li>
+<li>旅游，去趟香格里拉or香港。有这个心情，没这个闲钱。</li>
+</ul>
+<a id="more"></a>
+
+<p>无奈只剩下最后的选择：学习。</p>
+<p>具体的学习内容，在前面提到的那篇博客中已经说过了。大部分的时间是没有特定的系统的目标，而是东一棒槌西一榔头，这几天学习机器学习，那几天又学学javascript，这个月学习交响音乐，下个月学习人体解剖学云云。</p>
+<p>之所以如此，大概是由于自己的见识所限，无法清晰地认识到应该系统学习哪些技术或知识。</p>
+<p>后来认识的比较清楚了，才开始非常认真的学习python，使用vim和sublime text等等。</p>
+<p>此外，有相当一段时间保持了很好的读书习惯。说很好，指的是读书了。实际上不能算好，因为经常会管不住自己，读起来就停不下。这段时间读了不少的书，有些遗憾的是，大部分是专业之外的书。</p>
+<p>另外值得一提的是，几个月前受到warfalcon的启发，开始了我的「100天行动」，这个过程十分美好。100天行动接近尾声了，之后会另写一篇博客来唠叨此事。</p>
+<p>从情感的角度说一下这个长假。整体来说，不快乐。不快乐的源头是不自信，不自信就开始着急，着急就会逼着自己看这个看那个。每天坐在电脑前面从早到晚，坐的屁股都沉了，腰的弧度也略有增加，脖颈有时候会酸，眼睛经常累，大脑也由于经常的信息过载而乱掉。这期间受过我妈的不少呵斥。但他们也理解我的着急。我妈说我去了学校就轻松了，我深以为然。</p>
+<p>与我相关的其他人、其他事，都没有发生什么，所谓「没有消息就是最好的消息」。</p>
+<p>「拘禁」在家中，几乎与世隔绝，但通过互联网，总算没有跟时代脱节，而且认识了一些人，很nice的一些人（尤其是集美貌智慧赫本于一身的小王童鞋）。</p>
+<p>这个长假，有失有得，失去的没有什么大不了，得到的也没有什么了不起，都是小事。现在想想究竟失去了什么呢，却一点也想不起来。得到了什么呢？零零碎碎的一大堆。要不要详细列举一下？不妨。我一会去为知笔记写写，就不誊写上来了。</p>
+<p>这篇博客写的很乱，因为我的思绪乱，长假有点想馄饨，我自己都看不太清。</p>
+<p>箱包已经半满了。希望未来的两年半，不负这一年来的种种。</p>
+<hr>
+<p>爱打卡-100days-第93天-0011</p>
+]]></content>
+    <category scheme="http://zipperary.com/categories/生活/" term="生活"/>
+  </entry>
+  <entry>
+    <title type="html"><![CDATA[Ruby走起！]]></title>
+    <link href="http://zipperary.com/2013/08/28/ruby-on/"/>
+    <id>http://zipperary.com/2013/08/28/ruby-on/</id>
+    <published>2013-08-28T08:01:41.000Z</published>
+    <updated>2013-08-28T08:52:20.000Z</updated>
+    <content type="html"><![CDATA[<p><img src="http://ww2.sinaimg.cn/large/5e8cb366jw1e82h1gxsy6j20jf0e8js2.jpg" alt=""></p>
+<p>为了在他们NB闪闪地聊Ruby时我能不跟个傻子似的呆若木鸡，为了回报那条「一月30K」的招聘启事对我的激励，为了不糟蹋收藏夹里面好些个Ruby相关的文章，也为了见识一下ROR（Ruby on Rails）的伟大，我决定以身犯难，拨开迷雾，学习ROR。</p>
+<p>BTW，虽然Ruby的伟大之处十分得益于ROR，但Ruby毕竟是基础，ROR毕竟是框架，所以新开的这个分类叫做Ruby，向<strong>松本行弘</strong>致敬。同时遵循Ruby的命名规范，首字母大写。</p>
+<p>Ruby中文社区的很多前辈在指导我们这些后生学习ROR时都说，没有Ruby基础的也可以直接上手Rails，不过最好稍微了解一点，不必太多，然后在rails中慢慢学习和体会ruby的闪光点。我很听话，照办。</p>
+<p>关于Ruby和Rails的教程，数不胜数，文字和视频都有。我已经在为知笔记造过一次轮子了，不想在这里重复，而且我造出的轮子自用可以，拿出来就略献丑了。因此本文不再写Ruby教程之类的东西（也许以后把轮子打磨的漂亮之后会分享），而是列举一下目前发现的不错的文章、视频资料。</p>
+<a id="more"></a>
+
+<h3>站点</h3>
+<ul>
+<li><p><a href="http://ruby-china.org/" target="_blank">Ruby China</a>Ruby中文社区，注册一个账号，去里面发现好东西，必看</p>
+</li>
+<li><p><a href="http://railscasts-china.com/" target="_blank">Railscasts China</a>Ruby视频教程，五花八门，琳琅满目，必看</p>
+</li>
+<li><p><a href="http://tryruby.org/levels/1/challenges/0" target="_blank">Code School - TryRuby</a> 可以在线书写和执行Ruby代码</p>
+</li>
+</ul>
+<h3>方法论、路线图</h3>
+<ul>
+<li><p><a href="http://ruby-china.org/wiki" target="_blank">Ruby China | Wiki</a>这里面的每篇文章都要看。入门的话，只要看<a href="http://ruby-china.org/wiki/start_leaning_rails" target="_blank">Ruby China | 如何从零开始学会 Rails - Wiki</a></p>
+</li>
+<li><p><a href="http://yedingding.com/2013/04/22/rails-for-beginners.html" target="_blank">Rails 初学者指南 | The Voice of Dingding Ye</a></p>
+</li>
+</ul>
+<h3>教程</h3>
+<ul>
+<li><p><a href="https://www.ruby-lang.org/zh_cn/documentation/quickstart/" target="_blank">20分钟体验 Ruby</a>强烈推荐，快速对Ruby有个认识</p>
+</li>
+<li><p><a href="http://221.173.127.35:82/1Q2W3E4R5T6Y7U8I9O0P1Z2X3C4V5B/read.pudn.com/downloads74/ebook/268092/Ruby%E8%AF%AD%E8%A8%80%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8Bv1.0.pdf" target="_blank">Ruby语言入门教程v1.0.pdf</a>虽然有点久远，但是整理的很好，我从这里面收获很多</p>
+</li>
+<li><p><a href="http://saito.im/slide/ruby-new.html" target="_blank">Ruby.new</a>一个Slide，简洁、漂亮、实用，收获很多</p>
+</li>
+<li><p><a href="http://railstutorial-china.org/" target="_blank">Ruby on Rails 教程</a>中文版可以在线阅读，多人推荐</p>
+</li>
+<li><p><a href="http://guides.ruby-china.org/" target="_blank">Ruby on Rails Guides 中文</a>中文版，版本是3.2.8，英文好的直接读官方的版本4<a href="http://guides.rubyonrails.org/" target="_blank">Ruby on Rails Guides</a></p>
+</li>
+<li><p><a href="http://edu.51cto.com/course/course_id-418.html" target="_blank">诱人的Ruby-入门篇（共18个课时）_51CTO视频课程</a></p>
+</li>
+<li><p><a href="http://www.codeschool.com/paths/ruby" target="_blank">Ruby - Code School</a></p>
+</li>
+</ul>
+<h3>其他</h3>
+<ul>
+<li><p><a href="http://railsapps.github.io/" target="_blank">Rails Examples and Tutorials · RailsApps</a> </p>
+</li>
+<li><p><a href="http://www.diguage.com/archives/tag/ruby" target="_blank">Ruby | “地瓜哥”博客网</a></p>
+</li>
+<li><p>wiki里面说的所有参考书目，都可以在<a href="http://so.baiduyun.me/" target="_blank">这里</a>搜索下载</p>
+</li>
+</ul>
+<p>具体某个技术细节相关的文章就不列举了。这些是从我的为知笔记转移过来的，虽然五花八门，但我自己的话还是会跟着wiki里面的路线图走，这些权当参考吧。</p>
+<p>今天在railcasts上看了一个视频，15分钟写一个简单博客，真真感受到rails的强大和便利。一个命令，rails帮你搞定的远超乎你的想象。据说rails采用默认机制，默认为用户设置好，用户可以自行修改。真不错！</p>
+<p>快开学了，收拾收拾，恐怕得先暂停学习了。</p>
+<hr>
+<p>爱打卡-100days-第92天-0111</p>
+]]></content>
+    <category scheme="http://zipperary.com/tags/Ruby/" term="Ruby"/>
+    <category scheme="http://zipperary.com/categories/Ruby/" term="Ruby"/>
+  </entry>
+  <entry>
+    <title type="html"><![CDATA[安卓4.3，我来啦！]]></title>
+    <link href="http://zipperary.com/2013/08/27/gai-shi-san-shua-ji-shou-ji/"/>
+    <id>http://zipperary.com/2013/08/27/gai-shi-san-shua-ji-shou-ji/</id>
+    <published>2013-08-27T03:45:36.000Z</published>
+    <updated>2013-08-28T08:45:48.000Z</updated>
+    <content type="html"><![CDATA[<p><img src="http://ww3.sinaimg.cn/large/5e8cb366jw1e812xd4ow7j214u104q8i.jpg" alt=""></p>
+<p>这两天折腾手机，把盖世三刷成了CM，随后各种设置各种恢复各种鼓捣。记录一下，以求对得起耽误的这些时间。</p>
+<a id="more"></a>
+
+<h3>备份数据</h3>
+<ol>
+<li>用豌豆荚或百度云备份<em>通讯录和短信</em></li>
+<li>用钛备份或豌豆荚（推荐）备份手机应用</li>
+</ol>
+<h3>刷机</h3>
+<ol>
+<li><p>下载CM的<a href="http://wiki.cyanogenmod.org/w/I9300_Info" target="_blank">ROM</a>。我用的是Nightly，最新的安卓4.3。另外，尽管我手机是联通版，但用的ROM是国际版。这里贴出CM和安卓的版本对应：</p>
+<p><em>CM4（Android 1.6）、CM5（Android 2.1）、CM6（Android 2.2）、CM7（Android 2.3）、CM9（Android 4.0）、CM10（Android 4.1）、CM10.1（Android 4.2）、CM10.2（Android 4.3）。</em></p>
+</li>
+<li><p>下载谷歌服务框架。由于版权问题，CM默认不支持谷歌服务，需要自行刷入。<a href="http://goo.im/gapps" target="_blank">这里</a>有所有的版本。</p>
+</li>
+<li><p>刷ROM。把ROM和谷歌服务框架放到手机内存卡中，关机，按住音量加+Home键+电源键,一秒后放开电源键，进入recovery。<br>选择wipe date/factory reset并yes。<br>选择wipe cache partition并yes。<br>选择并安装ROM。<br>选择并安装谷歌服务套件。<br>搞定，重启，刷机完毕。</p>
+</li>
+</ol>
+<h3>恢复数据</h3>
+<ol>
+<li>通过豌豆荚恢复通讯录、短信和应用。</li>
+<li>通过钛备份恢复应用。<br>我在使用钛备份恢复时出现问题，所有应用无法恢复，怎么尝试都不行，最终放弃，一百多款应用就这么没了。只有把主要用的应用一一安装。幸亏有云，很多数据可以从云端拉下来。</li>
+</ol>
+<h3>CM设置</h3>
+<ol>
+<li><p><code>设置-安全-未知来源</code>打上对勾，这样才能通过豌豆荚或Google Play安装应用。</p>
+</li>
+<li><p><code>设置-关于手机-版本号</code>点五次，打开手机的「开发者选项」，进入勾选「USB调试」。这样才能用USB连接PC上的豌豆荚。</p>
+</li>
+<li><p><strong>截图</strong>快捷键：电源键+音量减同时按下并松开。<code>设置-Buttons-电源菜单选项</code>勾选「屏幕截图」，这样就可以长按电源键进行截图了。</p>
+</li>
+</ol>
+<h3>vpn</h3>
+<p> 尽管有fqrouter2这样的神器，我却还是不想浪费了vpn账号。</p>
+<p> 安卓4.0以上的系统，vpn要使用必须设置密码锁，很不人道。有网友提出了一个解决方案，我试了试，果然简单好用。</p>
+<ol>
+<li>按照正常程序，设置密码锁，进入设置vpn。</li>
+<li>按电源键关闭屏幕，再按一下，看到锁屏界面。故意输错5次，出现对话框，输入谷歌的账号密码解锁。看到几个密码锁的选项，直接无视，按返回键，搞定。手机重启后再使用vpn可能还会提示设置密码锁，直接返回键就可以进去了。</li>
+</ol>
+<h3>来自三星Galaxy S3</h3>
+<p> 新浪微博如果不是从「三星应用市场」下载安装，发微博时就无法显示「来自三星Galaxy S3」的微博尾巴，而是「来自Android客户端」，这样不够个性，不好。有办法！</p>
+<p> 首先确保手机里没有微博客户端，有就卸载掉。</p>
+<p> 到<a href="http://pan.baidu.com/share/link?shareid=685377599&amp;uk=1661888259" target="_blank">这里</a>下载新浪微博为盖世三定制的微博客户端。安装好之后会看到版本很低，用豌豆尖或Google Play升级到最新版本。发个微博试试吧，尾巴回来了:)</p>
+<h3>用钛备份恢复数据失败，导致这个应用无法安装</h3>
+<p> 如题，比如我用钛备份恢复扇贝单词失败了。通过豌豆荚下载安装时，提示我安装失败。我以为这辈子不能用扇贝了。但我想，既然不能安装，多半是因为手机里残留了跟扇贝有关的文件的缘故。于是我就找啊找，找啊找，找啊找…终于，在<code>/data/data</code>看到了他们的身影，果断删除，再安装就没问题了。</p>
+<h3>相机功能缺失</h3>
+<p> 4.3原生的相机有很多改进，也有很多值得称道的地方，但我用惯了三星的相机，对这个不大喜欢。我从三星的ROM中提取出了三星的相机并安装。另外从老罗的锤子手机里提取出了非常好用的三个应用：计算器、便签、时钟，看官可以去<a href="http://pan.baidu.com/share/link?uk=1661888259&amp;shareid=1390201726" target="_blank">这里</a>下载。</p>
+<p> 安装方法：拷贝到<code>/system-app</code>，把权限设置的跟其他应用一样，再重启就好了。</p>
+<hr>
+<p>爱打卡-100days-第91天-0111</p>
+]]></content>
+    <category scheme="http://zipperary.com/tags/手机/" term="手机"/>
+    <category scheme="http://zipperary.com/categories/IT杂谈/" term="IT杂谈"/>
+  </entry>
+  <entry>
+    <title type="html"><![CDATA[锤子ROM图鉴]]></title>
+    <link href="http://zipperary.com/2013/08/26/smartisan-share/"/>
+    <id>http://zipperary.com/2013/08/26/smartisan-share/</id>
+    <published>2013-08-26T12:42:51.000Z</published>
+    <updated>2013-08-27T05:25:44.000Z</updated>
+    <content type="html"><![CDATA[<p>今天把9300里的MIUI刷掉了，换CM，趁着刷机的机会，玩了下锤子ROM。短暂把玩之后的感觉是：有品位。主要的界面都做了截图，不废话，请欣赏。</p>
+<p><em>由于博客模板不支持图片并排，因此看起来排列的很渣，将就看吧…</em></p>
+<p>【更新】</p>
+<p>根据群众举报，图挂了，看来百度云提供的服务不好用啊。客官可以点击下面的链接进去欣赏：</p>
+<p>锤子：</p>
+<p> <a href="http://pan.baidu.com/share/link?shareid=3892230534&amp;uk=1661888259" target="_blank">http://pan.baidu.com/share/link?shareid=3892230534&amp;uk=1661888259</a></p>
+<p>CM：</p>
+<p> <a href="http://pan.baidu.com/share/link?shareid=4057005039&amp;uk=1661888259" target="_blank">http://pan.baidu.com/share/link?shareid=4057005039&amp;uk=1661888259</a></p>
+<hr>
+<p>爱打卡-100days-第90天-0111</p>
+]]></content>
+    <category scheme="http://zipperary.com/tags/锤子/" term="锤子"/>
+    <category scheme="http://zipperary.com/categories/IT杂谈/" term="IT杂谈"/>
+  </entry>
+  <entry>
+    <title type="html"><![CDATA[初识Sublime Text]]></title>
+    <link href="http://zipperary.com/2013/08/25/go-to-sublime-text/"/>
+    <id>http://zipperary.com/2013/08/25/go-to-sublime-text/</id>
+    <published>2013-08-25T11:40:23.000Z</published>
+    <updated>2013-08-25T12:48:18.000Z</updated>
+    <content type="html"><![CDATA[<p><img src="http://ww1.sinaimg.cn/large/5e8cb366jw1e7z6jqyv1hj211y0kqwi1.jpg" alt=""></p>
+<p>看到很多人推荐神器<strong>Sublime Text</strong>，我今天也来玩玩。</p>
+<p>官网的一句话广告：</p>
+<blockquote>
+<p>Sublime Text is a sophisticated text editor for code, markup and prose.</p>
+</blockquote>
+<p>维基百科的一句话简介：</p>
+<blockquote>
+<p>Sublime Text 是一套基于 Python 的跨平台文字编辑器。最初设计为 Vim 编辑器的多功能扩充软件。</p>
+</blockquote>
+<p>注意Sublime Text和<strong>python、vim</strong>的渊源，后面我们就会看到了。</p>
+<p><em>声明：以下均为windows下操作，其他系统未测试。</em></p>
+<a id="more"></a>
+
+<h3>安装</h3>
+<p>去<a href="http://www.sublimetext.com/" target="_blank">官网</a>下载和安装相应的版本。对于windows用户，有<em>安装版</em>和<em>绿色版</em>可选。推荐使用<strong>安装版</strong>。</p>
+<p><em>注意：最新版本为3测试版，推荐下载2！</em></p>
+<p>软件安装好了之后不需要任何配置就可以使用了。最常用的设置Sublime Text已经帮我们做好了，打开直接享用！</p>
+<h3>插件管理</h3>
+<p>一个NB的编辑器之所以NB，插件支持是一个重要的元素。Sublime Text有一个插件管理器是必装的。</p>
+<p><code>ctrl+</code>打开<strong>Console</strong>，把下面的代码复制进去：</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre>1
+</pre></td><td class="code"><pre>import urllib2,os; pf=<span class="string">'Package Control.sublime-package'</span>; ipp = <span class="transposed_variable">sublime.</span>installed_packages_path(); <span class="transposed_variable">os.</span>makedirs( ipp ) <span class="keyword">if</span> not <span class="transposed_variable">os.</span><span class="transposed_variable">path.</span>exists(ipp) <span class="keyword">else</span> None; <span class="transposed_variable">urllib2.</span>install_opener( <span class="transposed_variable">urllib2.</span>build_opener( <span class="transposed_variable">urllib2.</span>ProxyHandler( ))); open( <span class="transposed_variable">os.</span><span class="transposed_variable">path.</span>join( ipp, pf), <span class="string">'wb'</span> ).write( <span class="transposed_variable">urllib2.</span>urlopen( <span class="string">'http://sublime.wbond.net/'</span> +<span class="transposed_variable">pf.</span>replace( <span class="string">' '</span>,<span class="string">'%20'</span> )).read()); print( <span class="string">'Please restart Sublime Text to finish installation'</span>)
+</pre></td></tr></table></figure>
+
+<p>回车键。</p>
+<p>重启，如果看到<code>Preferences &gt; Package Control</code>就说明成功了。</p>
+<p>如果上面的方法安装失败，使用下面这个办法：</p>
+<ol>
+<li>Click <code>the Preferences &gt; Browse Packages…</code>menu</li>
+<li>Browse up a folder and then into the <code>Installed Packages/</code> folder</li>
+<li>Download <a href="https://sublime.wbond.net/Package%20Control.sublime-package" target="_blank">Package Control.sublime-package</a> and copy it into the <code>Installed Packages/</code> directory</li>
+<li>Restart Sublime Text</li>
+</ol>
+<p>插件管理器搞定之后，就可以随意安装插件了。方法很简单：</p>
+<p><code>ctrl+shift+p</code>，输入<code>ip</code>，看到「Install Package」，回车键。然后出现插件列表，在里面输入要找的插件，比如<strong>tag</strong>，选中并回车即可自动安装好。</p>
+<h3>常用插件</h3>
+<p>我今天才开始用，安装的插件很少。下面是网友推荐的几个，我只安装了一部分。</p>
+<ul>
+<li><p>tag：Html格式化，右键Auto-Format Tags on Ducument。</p>
+</li>
+<li><p>ZenCoding：不得不用的一款前端开发方面的插件，Write less , show more.安装后可直接使用，Tab键触发，Alt+Shift+W是个代码机器。</p>
+</li>
+<li><p>SideBarEnhancements：侧栏右键功能增强，非常实用。</p>
+</li>
+<li><p>Theme–Soda：完美的编码主题，用过的都说好，Setting user里面添加”theme”: “Soda Dark.sublime-theme”。</p>
+</li>
+<li><p>SublimeLinter：这是用来在写代码时做代码检查的。可以在包管理器中安装。写Python程序的话，它还会帮你查代码是否符合PEP8的要求。有问题有代码会出现白框，点击时底下的状态栏会提示出什么问题。</p>
+</li>
+<li><p>Python PEP8 Autoformat：这是用来按PEP8自动格式化代码的。可以在包管理器中安装。如果以前写程序不留意的话，用SublimeLinter一查，满屏都是白框框，只要装上这个包，按ctrl+shift+r，代码就会按PEP8要求自动格式化了，一屏的白框几乎都消失了。</p>
+</li>
+<li><p>Alignment：代码对齐，如写几个变量，选中这几行，Ctrl+Alt+A，哇，齐了。</p>
+</li>
+</ul>
+<h3>快捷键</h3>
+<p>前面说过，Sublime Text跟Vim渊源极深，软件安装好之后也是默认支持Vim模式的。所以很多vimer熟悉的快捷键和操作方式在这里同样使用，甚至也分为普通模式和插入模式，但命令模式有很多不同。</p>
+<p>这里只列举最有用且不同于vim的一些快捷键，以后发现更多好用的后会再行补充。</p>
+<ul>
+<li><code>ctrl+shift+p</code> 打开命令提示窗口，你所要的，这里都有:)</li>
+<li><code>ctrl+` </code> 打开console</li>
+<li><code>ctrl+r</code> 查找函数和块，非常有用</li>
+<li><code>ctrl+/</code> 注释和解注释</li>
+<li><code>ctrl+p</code> 切换打开的文件</li>
+<li><code>ctrl+w</code> 关闭当前标签页</li>
+<li><code>ctrl+shift+w</code> 关闭所有打开的标签页</li>
+<li><code>ctrl+m</code> 跳转到该位置前后的括号</li>
+<li><code>ctrl+k+b</code> 开关侧边栏</li>
+<li><code>alt+n</code> 快速切换到第n个打开的标签页</li>
+<li><code>F11</code> 全屏模式</li>
+<li><code>shift+F11</code> 防打扰模式</li>
+</ul>
+<h3>赞许</h3>
+<p>好看。</p>
+<p>方便好用。</p>
+<h3>抱怨</h3>
+<p>markdown的高亮支持惨不忍睹，也没有好用的插件可以替代。</p>
+<hr>
+<p>爱打卡-100days-第89天-0111</p>
+]]></content>
+    <category scheme="http://zipperary.com/categories/IT杂谈/" term="IT杂谈"/>
+  </entry>
+  <entry>
+    <title type="html"><![CDATA[vim使用中的几个问题]]></title>
+    <link href="http://zipperary.com/2013/08/24/vim-tips/"/>
+    <id>http://zipperary.com/2013/08/24/vim-tips/</id>
+    <published>2013-08-24T13:05:38.000Z</published>
+    <updated>2013-08-24T13:45:28.000Z</updated>
+    <content type="html"><![CDATA[<p><img src="http://ww4.sinaimg.cn/large/5e8cb366jw1e7y2y7xlk0j20it0ectbi.jpg" alt=""></p>
+<p>使用VIM做主编辑器有一段时间了，快捷键和命令用的越来越熟练。本文将使用过程中遇到的问题、解决方案和一些好用的技巧汇总如下，并不定时更新。</p>
+<h3>查找之后高亮显示的词怎么取消高亮？</h3>
+<p>说明：通常我们会用<code>:/bla[Enter]</code>查询文中出现的<em>bla</em>，并以高亮显示。可以通过<code>n</code>和<code>N</code>查找下一个和上一个。查找完之后，高亮显示并不会消失，这样会影响阅读其他的代码或文字。</p>
+<p>解决：使用<code>:noh</code>命令。</p>
+<a id="more"></a>
+
+<h3>插入模式下怎么进行光标移动？</h3>
+<p>说明：当然，可以使用方向键进行移动。但Vimer通常不会这么干。难道每次都要<code>Esc</code>回到<em>普通模式</em>再移动吗？</p>
+<p>解决：根据前辈们的说法，Vimer要有一个意识，就是默认保持普通模式。除此之外，一切都是命令。比如插入文字的命令为<code>iblabla</code>，执行「命令」的命令为<code>:bla</code>。所以，要想移动光标，乖乖回到普通模式吧。</p>
+<p>但是我们都知道<code>Esc</code>的键程太远，老这么按很费劲。于是大家就进行快捷键的映射。我找到的最好的解决方案是用<code>jj</code>替代<code>Esc</code>。</p>
+<p>在<code>.vimrc</code>中加入这一样：</p>
+<p><code>imap jj &lt;Esc&gt;</code></p>
+<p>有人会说，那我要输入「jj」肿么办呢？这种情况是很少的，编程的实践证明几乎不会用到这个组合词。如果万一用到，那么输入一个j，稍等一秒再输入另外一个即可。</p>
+<p>当然，你也可以映射到<code>Caps Lock</code>，悉听尊便。</p>
+<h3>怎样在Windows右键菜单中加入「用Vim编辑」？</h3>
+<p>Windows下安装gvim会默认在右键菜单中添加这一项。我前两天清理无用的注册表，这一项不幸被360吃掉了。乖乖修改注册表吧~</p>
+<ol>
+<li><p>按下<code>Win + r</code>，输入<code>regedit</code>打开注册表。</p>
+</li>
+<li><p>找到<code>HKEY_CLASSES_ROOT\*\Shell</code>。</p>
+</li>
+<li><p>用鼠标右键添加项，名字叫「用Vim编辑」，再在这个文件夹上点击右键添加项，起名叫做「command」。</p>
+</li>
+<li><p>编辑项的值为<code>&quot;E:\\Program Files\\Vim\\vim74\\gvim.exe&quot; -p &quot;%1&quot;</code>，具体路径根据自己电脑情况而定。</p>
+</li>
+</ol>
+<p>用类似的方式，还可以添加「用vim新标签编辑」。只需要修改相应的名字，并将项目的值写为<code>&quot;E:\\Program Files\\Vim\\vim74\\gvim.exe&quot; -p --remote-tab-silent &quot;%1&quot;</code>即可。</p>
+<h3>tips</h3>
+<ol>
+<li><p>反向的操作常常用<code>Shift</code>。比如删除前一个字符用<code>x</code>，那么删除后一个字符用<code>Shift + x</code>，也就是<code>X</code>。</p>
+</li>
+<li><p>数字的运用。数字是规定操作重复次数的，有时候非常有用。比如<code>10dd</code>是删除10行。</p>
+</li>
+<li><p><code>.</code>重复上一个操作。</p>
+</li>
+<li><p>block级别的光标移动。比如移动到函数的开头用<code>[[</code>，结尾用<code>]]</code>。</p>
+</li>
+<li><p>批量缩进。普通模式下<code>v</code>进入选择模式，通过移动光标选择几行，然后<code>&lt;</code>和<code>&gt;</code>可以分别对这几行进行向左缩进和向右缩进。<code>=</code>可以自动缩进。非常好用。</p>
+</li>
+<li><p>自动补全。<code>Ctrl + n</code>。</p>
+</li>
+<li><p>buffer常用操作。</p>
+<p><code>:ls</code>列出buffer里面的所有文件。</p>
+<p><code>:bn</code>打开buffer里面编号为n的文件。</p>
+</li>
+</ol>
+<hr>
+<p> 爱打卡-100days-第88天-0011</p>
+]]></content>
+    <category scheme="http://zipperary.com/tags/vim/" term="vim"/>
+    <category scheme="http://zipperary.com/categories/IT杂谈/" term="IT杂谈"/>
+  </entry>
+</feed>
