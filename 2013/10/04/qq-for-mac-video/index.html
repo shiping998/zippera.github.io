@@ -5,7 +5,7 @@
 <head>
   <meta charset="utf-8">
   
-  <title>GOT | Zippera's blog</title>
+  <title>QQ for Mac无法视频通话的解决办法 | Zippera's blog</title>
   <meta name="author" content="zippera">
   
   <meta name="description" content="Walk steps step by step">
@@ -13,7 +13,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  
+  <meta property="og:title" content="QQ for Mac无法视频通话的解决办法"/>
   <meta property="og:site_name" content="Zippera's blog"/>
 
   
@@ -71,25 +71,109 @@ document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3
 </nav>
 <div class="clearfix"></div></header>
   <div id="content" class="inner">
-    <div id="main-col" class="alignleft"><div id="wrapper">
-<h2 class="archive-title tag">GOT</h2>
+    <div id="main-col" class="alignleft"><div id="wrapper"><article class="post">
+  
+  <div class="post-content">
+    <header>
+      
+        <div class="icon"></div>
+        <time datetime="2013-10-04T03:52:42.000Z"><a href="/2013/10/04/qq-for-mac-video/">10月 4 2013</a></time>
+      
+      
+  
+    <h1 class="title">QQ for Mac无法视频通话的解决办法</h1>
+  
 
+    </header>
+    <div class="entry">
+      
+        <h3>问题描述</h3>
+<p>OSX 升级到10.8.5之后，QQ 进行视频通话时，总提示「检测不到摄像头…」，自己电脑的摄像头无法打开，但可以看到对方的视频；而 facetime 和 Photobooth 都可以正常使用。</p>
+<h3>腾讯提供的解决方法</h3>
+<p>根据腾讯的解释，这是由于新的 OSX 系统里面，摄像头不允许第三方的应用随意调用，所以需要替换一个相关的文件才行。</p>
+<p>以下引用腾讯提供的解决方法：</p>
+<blockquote>
+<p>关于2013款air升级至10.8.5后无法使用摄像头的临时解决办法：1.前往路径 /Library/CoreMediaIO/Plug-Ins/DAL/ ，备份文件AppleCamera.plugin；2.下载并解压链接中文件<a href="http://t.cn/z88nzZt" target="_blank">http://t.cn/z88nzZt</a> ；3.复制该文件到1路径，并覆盖原文件；4.重启电脑。</p>
+</blockquote>
+<p>我按照这个办法设置，然后各种鼓捣始终不行，直接导致我感觉自己「被上帝眷顾了」。今天又换了个方法设置了下，搞定了。下面提供自己的方法（跟上述方法如出一辙）。</p>
+<a id="more"></a>
 
-  <div class="archive">
-    
-      <article class="post">
-        <div class="post-content">
-          <header>
-            <div class="icon"></div>
-            <time datetime="2013-06-13T23:08:38.000Z"><a href="/2013/06/14/got-3-10/">6月 14 2013</a></time>
-            
-              <h1 class="title"><a href="/2013/06/14/got-3-10/">《权力的游戏》第三季收官</a></h1>
-            
-          </header>
-        </div>
-      </article>
-    
+<h3>我的解决步骤</h3>
+<ol>
+<li>打开 Finder，快捷键<code>command + shift + g</code>，填写<code>/Library/CoreMediaIO/Plug-Ins/DAL/</code>，回车。</li>
+<li>把<code>AppleCamera.plugin</code>复制粘贴到桌面上。</li>
+<li>下载连接<code>http://t.cn/z88nzZt</code>中提供的文件。注意，后缀为<code>.zip</code>，不可以下载成<code>.plugin</code>。</li>
+<li>用系统自带的解压方式「用默认的方式归档」解压文件，并复制到刚才第一步打开的那个路径，粘贴时选择「替换」。</li>
+<li>「注销」并重新登录。好了，已经 okay了。</li>
+</ol>
+<p>这个问题按照腾讯的方法，本来很容易解决的，为什么我鼓捣这么久才搞定？因为这个过程中各种坑：</p>
+<ul>
+<li><p>用 chrome 下载时，提示我下载成「.zip」还是「.plugin」，我选了后者。</p>
+</li>
+<li><p>文件的权限问题，还有命名问题，因为它可能隐藏了名称中的部分后缀。</p>
+</li>
+<li><p>不必重启，注销即可。</p>
+</li>
+<li><p>备份的时候直接备份到了它旁边。</p>
+</li>
+</ul>
+<hr>
+<p>今日彩蛋：</p>
+<p>在图片文件上呼出右键菜单，共享里面有一个「新浪微博」，可以分享到新浪微博，界面很漂亮，发送后，微博尾巴是「来自 osx」。</p>
+<p><img src="http://ww1.sinaimg.cn/large/5e8cb366jw1e9910cwt6rj20bu06i3yt.jpg" alt=""></p>
+
+      
+    </div>
+    <footer>
+      
+        
+  
+  <div class="categories">
+    <a href="/categories/Mac/">Mac</a>
   </div>
+
+        
+<!-- Baidu Button BEGIN -->
+<div id="bdshare" class="bdshare_t bds_tools_32 get-codes-bdshare">
+<a class="bds_qzone"></a>
+<a class="bds_tsina"></a>
+<a class="bds_tqq"></a>
+<a class="bds_renren"></a>
+<a class="bds_t163"></a>
+<span class="bds_more"></span>
+<a class="shareCount"></a>
+</div>
+<script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=3326447" ></script>
+<script type="text/javascript" id="bdshell_js"></script>
+<script type="text/javascript">
+document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+</script>
+<!-- Baidu Button END -->      
+      <div class="clearfix"></div>
+    </footer>
+  </div>
+</article>
+
+
+<section id="comment">
+
+<!-- Duoshuo Comment BEGIN -->
+	<div class="ds-thread"></div>
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"zippera"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = 'http://static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		|| document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+<!-- Duoshuo Comment END -->  
+
+  
+</section>
 </div></div>
     <aside id="sidebar" class="alignright">
   <div class="search">
