@@ -78,6 +78,47 @@ document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3
     <header>
       
         <div class="icon"></div>
+        <time datetime="2013-08-03T09:24:39.000Z"><a href="/2013/08/03/jquery-post/">8月 3 2013</a></time>
+      
+      
+  
+    <h1 class="title"><a href="/2013/08/03/jquery-post/">jQuery之$.post()</a></h1>
+  
+
+    </header>
+    <div class="entry">
+      
+        <p>在提交表单时我们可以使用.submit()方法自定义提交表单的动作。提交的方式可以选择get、post、getJSON、getJSONP等等。这里说一下post方式。</p>
+<p><code>jQuery.post( url [, data ] [, success(data, textStatus, jqXHR) ] [, dataType ] )</code></p>
+<p>url：要提交的地址，相当于html中的action值。</p>
+<p>data：要发送给服务器的数据。</p>
+<p>success：这是一个回调函数，如果post成功，会执行该函数。</p>
+<p>dataType：这个参数可以设置从服务器返回的数据的格式，可以为xml, json, script, text, html。</p>
+
+      
+    </div>
+    <footer>
+      
+        
+          <div class="alignleft">
+            <a href="/2013/08/03/jquery-post/#more" class="more-link">阅读全文</a>
+          </div>
+        
+        
+      
+      <div class="clearfix"></div>
+    </footer>
+  </div>
+</article>
+
+
+
+  <article class="post">
+  
+  <div class="post-content">
+    <header>
+      
+        <div class="icon"></div>
         <time datetime="2013-08-02T08:35:11.000Z"><a href="/2013/08/02/downtoearth-focus/">8月 2 2013</a></time>
       
       
@@ -181,52 +222,6 @@ document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3
 
 
 
-  <article class="post">
-  
-  <div class="post-content">
-    <header>
-      
-        <div class="icon"></div>
-        <time datetime="2013-07-30T01:25:39.000Z"><a href="/2013/07/30/python-yield/">7月 30 2013</a></time>
-      
-      
-  
-    <h1 class="title"><a href="/2013/07/30/python-yield/">python学习之yield</a></h1>
-  
-
-    </header>
-    <div class="entry">
-      
-        <p>python中有一个略微奇怪的表达式叫yield expression，本文就来探究一下这是个什么东西。一步一步来。</p>
-<h4>iterable</h4>
-<figure class="highlight lang-python"><table><tr><td class="gutter"><pre>1
-2
-3
-</pre></td><td class="code"><pre>mylist = [<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>]
-<span class="keyword">for</span> item <span class="keyword">in</span> mylist:
-    <span class="keyword">print</span> str(item)
-</pre></td></tr></table></figure>
-
-<p>mylist是一个列表（list），我们可以逐条取出每一个item，这个过程叫做iteration。像list这样可以用“for…in…”依次遍历的对象被称为iterable，其他的iterable还有string、tuple、dict等。iterable的一个特点是所有的item会存储到内存中，这样会产生一些不便和不利的地方，于是催生了generator（后面讲到）。</p>
-
-      
-    </div>
-    <footer>
-      
-        
-          <div class="alignleft">
-            <a href="/2013/07/30/python-yield/#more" class="more-link">阅读全文</a>
-          </div>
-        
-        
-      
-      <div class="clearfix"></div>
-    </footer>
-  </div>
-</article>
-
-
-
 
 <nav id="pagination">
   
@@ -276,7 +271,7 @@ document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3
   
     <li><a href="/categories/生活/">生活</a><small>26</small></li>
   
-    <li><a href="/categories/电影/">电影</a><small>13</small></li>
+    <li><a href="/categories/电影/">电影</a><small>14</small></li>
   
     <li><a href="/categories/读书笔记/">读书笔记</a><small>16</small></li>
   
