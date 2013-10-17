@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Walk steps step by step]]></subtitle>
   <link href="http://zipperary.com/atom.xml" rel="self"/>
   <link href="http://zipperary.com"/>
-  <updated>2013-10-15T09:44:02.935Z</updated>
+  <updated>2013-10-17T02:27:21.380Z</updated>
   <id>http://zipperary.com/</id>
   <author>
     <name><![CDATA[zippera]]></name>
@@ -12,11 +12,78 @@
   </author>
   <generator uri="http://zespia.tw/hexo">Hexo</generator>
   <entry>
-    <title type="html"><![CDATA[An Introduction to HMM]]></title>
+    <title type="html"><![CDATA[隐马尔可夫模型三个问题的求解(一)]]></title>
+    <link href="http://zipperary.com/2013/10/17/3-problems-in-hmm/"/>
+    <id>http://zipperary.com/2013/10/17/3-problems-in-hmm/</id>
+    <published>2013-10-17T01:18:47.000Z</published>
+    <updated>2013-10-17T02:26:22.000Z</updated>
+    <content type="html"><![CDATA[<p>上一篇<a href="http://zipperary.com/2013/10/15/an-introduction-to-hmm/">《隐马尔可夫模型介绍》</a>中讲解了马尔可夫假设和隐马尔可夫模型 HMM，并提到了 HMM 中的三个基本问题，但没有展开讨论其求解。本篇就此做出解答。</p>
+<p>本文主要参考<a href="http://www.52nlp.cn/category/hidden-markov-model/page/4" target="_blank">《HMM 学习最佳范例》</a>。</p>
+<p>先回顾一下，上节我们就硬币的例子提出了三个问题：</p>
+<ol>
+<li>给定上述模型，观察到的结果（硬币的正反面）为O={H，T，H}的概率是多少？</li>
+<li>若给定上述的观察结果，那么最可能的状态序列（硬币序号）是什么？</li>
+<li>A、B、π未知的情况下，如何根据 O 得到它们？</li>
+</ol>
+<p>问题一是个估算问题，P（O|λ），可用向前算法和向后算法解决；</p>
+<p>问题二是根据观察序列反向找出最可能的状态序列，是个解码问题，P（O,q|λ），q 是某状态，最常用的是 Viterbi算法；</p>
+<p>问题三实际上是个参数估计或求解的问题，或者说是个学习问题，通过训练一步步优化参数，找到使得P（O|λ）最大的那个参数，最常用的是 Baum-Welch算法。</p>
+<hr>
+<h3>例子</h3>
+<p>这里，我们提出一个更加恰当的例子：</p>
+<p>有一个宅男，不爱出门，也不愿看看窗户外面的世界。但他有个特殊的习惯，通过观察海藻来推测外面的天气情况。天气一共有3种情况 S：（晴天、多云、雨天）；海藻一共有4种情况V：（干、稍干、潮湿、湿润）。海藻的情况是宅男直接观察到的，而天气的情况并没有直接观察到，而是隐藏状态，是他推测出来的。其关系如图所示：</p>
+<p><img src="http://ww3.sinaimg.cn/large/5e8cb366jw1e9nxfm6fm5j20bu07dq3k.jpg" alt=""></p>
+<a id="more"></a>
+
+<p>另外，我们给出其他三个条件：</p>
+<p>天气的状态转移矩阵A：</p>
+<p><img src="http://ww1.sinaimg.cn/large/5e8cb366jw1e9nxie43xtj20bw046gls.jpg" alt=""></p>
+<p>天气的初始概率向量π：</p>
+<p><img src="http://ww1.sinaimg.cn/large/5e8cb366jw1e9nxjfricdj205d01swea.jpg" alt=""></p>
+<p>天气状态和海藻观察情况的混淆矩阵 B：</p>
+<p><img src="http://ww2.sinaimg.cn/large/5e8cb366jw1e9nxk60arrj20af03o3yj.jpg" alt=""></p>
+<p>现在，这个 HMM 已经构建好了，如上一节所说，是一个五元组λ=（S，V，A，B，π）。</p>
+<p>我们使用一个隐马尔科夫模型（HMM）对这个例子建模。这个模型包含两组状态集合和三组概率集合：</p>
+<ul>
+<li>隐藏状态：一个系统的（真实）状态，可以由一个马尔科夫过程进行描述（例如，天气）。</li>
+<li>观察状态：在这个过程中‘可视’的状态（例如，海藻的湿度）。</li>
+<li>pi向量：包含了（隐）模型在时间t=1时一个特殊的隐藏状态的概率（初始概率）。</li>
+<li>状态转移矩阵：包含了一个隐藏状态到另一个隐藏状态的概率</li>
+<li>混淆矩阵：包含了给定隐马尔科夫模型的某一个特殊的隐藏状态，观察到的某个观察状态的概率。</li>
+</ul>
+<h3>评估问题：前向算法</h3>
+<p>给定λ，要计算某个观察序列 O的概率，最不费脑子的办法就是<strong>穷举法</strong>。</p>
+<p><img src="http://ww4.sinaimg.cn/large/5e8cb366jw1e9nxtk7wpkj20be05cjro.jpg" alt=""></p>
+<p>如图，若求序列（dry,damp,soggy）的概率，只要把每种可能的状态序列都算一下概率，最后相加即可。一共有3**3=27种。</p>
+<p>总的概率是：Pr(dry,damp,soggy | HMM) = Pr(dry,damp,soggy | sunny,sunny,sunny) + Pr(dry,damp,soggy | sunny,sunny ,cloudy) + Pr(dry,damp,soggy | sunny,sunny ,rainy) + . . . . Pr(dry,damp,soggy | rainy,rainy ,rainy)</p>
+<p>其中每项的求解很简单，利用初始状态向量π、状态转移矩阵 A 和混淆矩阵 B，通过相乘就能得到。</p>
+<p>可以看到，这种做法的代价是比较昂贵的，省了脑力就会相应的耗费体力，上帝是公平的。</p>
+<p>下面提出一种颇费脑细胞，但代价比较小的算法：<strong>前向算法</strong>。</p>
+<p>首先，定义<strong>局部概率</strong>这个概念：它是到达上图网格中间某个状态的概率，它是所有到达这个状态的可能路径的概率求和的结果。</p>
+<p>例如，对于 t=2时Cloudy的局部概率：</p>
+<p><img src="http://ww4.sinaimg.cn/large/5e8cb366jw1e9ny3n70dyj2098053glq.jpg" alt=""></p>
+<p>有三个路径，分别计算每条路径的概率，再求和即可。相信聪明的你已经想到，我们正是利用<strong>递推</strong>的方式来求解最后结果：</p>
+<p>首先计算 t=1的情况，然后就算 t=i 的情况（利用 t=i-1），最后得出最末时刻的概率。</p>
+<p><img src="http://ww2.sinaimg.cn/large/5e8cb366jw1e9ny8rzqfkj204x00x743.jpg" alt=""></p>
+<p>其中，j 表示三个天气状态中的某一种；α1(j)表示 t=1时，天气状态为 j 时，得到观察为 k1的概率；等式的右边，表示初始状态下某天气的概率乘以该天气下得到 k1观察的概率。</p>
+<p><img src="http://ww4.sinaimg.cn/large/5e8cb366jw1e9ny9fibxsj207d01g745.jpg" alt=""></p>
+<p>这个式子中加入了状态转移矩阵的元素，就是 aij，用来递推计算，总的形式和上式一致。</p>
+<p><img src="http://ww2.sinaimg.cn/large/5e8cb366jw1e9nyb4eyafj205p01jglg.jpg" alt=""></p>
+<p>最后所求概率，是一个加和，由于递推结束，不需要状态转移矩阵了。</p>
+<p><a href="http://www.52nlp.cn/hmm-learn-best-practices-five-forward-algorithm-5" target="_blank">这里</a>有一个实际的计算过程可供参考。</p>
+<p>为什么叫「前向算法」呢？从上面可以看出，这个算法的本质，是根据前t时的情况计算t+1时的情况，是一个逐渐向前推进的过程。</p>
+<p>时间有限，今天先写这些，预告：</p>
+<p>解码问题：Viterbi 算法</p>
+<p>学习问题：Baum-Welch 算法</p>
+]]></content>
+    <category scheme="http://zipperary.com/categories/机器学习/" term="机器学习"/>
+  </entry>
+  <entry>
+    <title type="html"><![CDATA[隐马尔科夫模型介绍]]></title>
     <link href="http://zipperary.com/2013/10/15/an-introduction-to-hmm/"/>
     <id>http://zipperary.com/2013/10/15/an-introduction-to-hmm/</id>
     <published>2013-10-15T09:26:30.000Z</published>
-    <updated>2013-10-15T09:43:27.000Z</updated>
+    <updated>2013-10-17T01:19:48.000Z</updated>
     <content type="html"><![CDATA[<p>这篇博客是根据我 NLP课程 的一个小作业整理而来的，介绍一下 NLP 领域中非常经典的一个模型，叫做隐马尔可夫模型，简称 HMM。看过吴军老师的《数学之美》的同学应该对这个模型不感到陌生。这次的作业，老师给出一本书<em>Foundations of statistical natural language processing</em>，让我们自己挑选任意一部分的内容，不限字数，写篇文章。前面部分多是介绍语言学的基础知识，我选择了比较偏算法的 HMM。由于 NLP 的课程刚刚开始，远没有讲到这里，老师提供的参考书又是电子版的英文原版，看起来比较费劲，我更多的参考了一些其他资料，文末会列出。</p>
 <p>分割线后是正文。</p>
 <hr>
@@ -752,83 +819,5 @@
 <p>爱打卡-100days-第100天-0001</p>
 ]]></content>
     <category scheme="http://zipperary.com/categories/生活/" term="生活"/>
-  </entry>
-  <entry>
-    <title type="html"><![CDATA[linux下常用命令]]></title>
-    <link href="http://zipperary.com/2013/09/04/linux-commands/"/>
-    <id>http://zipperary.com/2013/09/04/linux-commands/</id>
-    <published>2013-09-04T01:04:36.000Z</published>
-    <updated>2013-09-05T01:28:34.000Z</updated>
-    <content type="html"><![CDATA[<p><img src="http://ww3.sinaimg.cn/large/5e8cb366jw1e8bd5xw20jj20mm0gwgmy.jpg" alt=""></p>
-<p>linux的强大之处，很大程度上在于其丰富灵活的shell命令，但这一点恰恰也是阻碍初学者的老大难问题。这里是我学习linux命令时的笔记，不求全面，但求有用。先学会最基本最常用的命令，在使用中再逐渐积累。</p>
-<h3>shell命令行格式</h3>
-<p><code>命令 -l(选项) 参数</code>   </p>
-<p>没有参数的选项可以合并；命令之间用<code>;</code>隔开，依次执行；长选项用<code>--</code>;管道<code>|</code>可以串联执行。</p>
-<a id="more"></a>
-
-<h3>系统</h3>
-<p>md5sum+文件：    检验签名</p>
-<p>uname：    机器名    -a详细</p>
-<p>history：    命令历史 ；   +10执行第十个</p>
-<p>sudo+命令： 超级权限</p>
-<p>su moxie： 进入超级用户moxie</p>
-<p>passwd：    改密码</p>
-<p>alias l=‘ls -l’：    命令别名  ；  unalias l可以取消</p>
-<p>man bla：    帮助</p>
-<p>bla —help</p>
-<p>whereis ls：   ls 二进制文件的路径</p>
-<p>ps：    列出进程</p>
-<p>top：    显示cpu信息</p>
-<p>free ：   跟踪内存的使用信息    b以B显示    k以KB显示    h易读的格式</p>
-<p>kill 5721 ：   杀掉该进程</p>
-<p>service bla start：    启动服务    restart、stop</p>
-<p>apt-get install bla：    包管理类似pip    update升级</p>
-<p>mkpasswd  20：    生成随机密码，长度为20 ???</p>
-<p>cal：    日历    02 2000</p>
-<p>date：    日期    —set设置</p>
-<h3>文件</h3>
-<p>ls：    列出文件夹、文件    -l  -a</p>
-<p>lsof：    显示打开的文件</p>
-<p>lsblk：    列出块设备  -l列表形式</p>
-<p>df：    磁盘使用情况</p>
-<p>mount 分配名 目录 ：   将设备挂在到指定目录</p>
-<p>pwd：    print working directory</p>
-<p>cd /foo：    改变当前路径    ~    .. . -</p>
-<p>mkdir bla：    文件夹</p>
-<p>touch bla：    更新时间戳，如果没有，创建</p>
-<p>cat a b &gt;&gt;c：    连接ab成c，如果没有c会创建。如果只有a，则显示。    -n行号    cat &gt;&gt;c然后可以输入内容</p>
-<p>paste a b &gt;&gt;c：    另一种方式连接</p>
-<p>cp bla /foo：    复制</p>
-<p>mv……………：    移动，也可以单文件重命名</p>
-<p>rm bla foo：    删除    -rf删除目录</p>
-<p>rename a b *sh：    多文件重命名，所有sh后缀的文件中的a换成b</p>
-<p>cmp foo bar：    比较两个文件</p>
-<p>chmod 777 bla：    改权限</p>
-<p>chown a:b bla：    改用户和组</p>
-<p>find -iname *.sh：    搜索目录和子目录下的文件，i为忽略大小写</p>
-<p>grep bla /foobar：    搜索文件中包含bla的行    i忽略大小写    r递归搜索    c统计    color着色</p>
-<h3>网络</h3>
-<p>wget url：    下载</p>
-<p>ifconfig：    检查活动路由器    a所有    eth0 down停用    up启用  </p>
-<p>netstat：    各种网络相关信息    a所有    t为tcp    s为连接的    c动态输出</p>
-<p>dig 某域名：    查询。。。</p>
-<p>uptime：    服务器无人值守时发生了什么</p>
-<p>w：    uptime和who的组合命令</p>
-<p>wall “bla”：    发送一条消息到登录端    类似的还有mesg write talk</p>
-<h3>源代码安装</h3>
-<ol>
-<li><p>tar文件解压</p>
-</li>
-<li><p><code>./configure --prefix=/usr</code>    设置安装到bla，生成makefile</p>
-</li>
-<li><p><code>make</code>    编译</p>
-</li>
-<li><p><code>make install</code>    安装</p>
-</li>
-</ol>
-<hr>
-<p>爱打卡-100days-第99天-0001</p>
-]]></content>
-    <category scheme="http://zipperary.com/categories/linux/" term="linux"/>
   </entry>
 </feed>
