@@ -4,13 +4,34 @@
   <subtitle><![CDATA[Walk steps step by step]]></subtitle>
   <link href="http://zipperary.com/atom.xml" rel="self"/>
   <link href="http://zipperary.com"/>
-  <updated>2013-10-23T14:36:29.084Z</updated>
+  <updated>2013-10-26T03:10:49.602Z</updated>
   <id>http://zipperary.com/</id>
   <author>
     <name><![CDATA[zippera]]></name>
     <email><![CDATA[sovey198@gmail.com]]></email>
   </author>
   <generator uri="http://zespia.tw/hexo">Hexo</generator>
+  <entry>
+    <title type="html"><![CDATA[用LaTeX编辑数学公式]]></title>
+    <link href="http://zipperary.com/2013/10/26/latex-for-math/"/>
+    <id>http://zipperary.com/2013/10/26/latex-for-math/</id>
+    <published>2013-10-26T02:39:45.000Z</published>
+    <updated>2013-10-26T03:10:37.000Z</updated>
+    <content type="html"><![CDATA[<p><img src="http://ww3.sinaimg.cn/large/5e8cb366jw1e9yepw30o2j20m809k0t8.jpg" alt=""></p>
+<p>LaTeX 归根到底也是一门用来排版的标记语言，像 Markdown 一样，通过一些符号定义文本的格式。LaTeX 被广泛地使用在图书、论文等文本排版中，功能强大，尤其是在对<strong>复杂表格和数学公式</strong>的支持方面，Markdown 是无法与之比拟的。至于文字排版，我还是喜欢使用比较整洁、简单的 Markdown。对于我们这些需要经常使用数学工具的人，学会在电脑上编辑数学功能几乎是必备的技能，有人说 Word 就可以做到，但它真的没有 LaTeX 强大。那么我们就学一学怎样用 LateX 编辑数学公式。</p>
+<a id="more"></a>
+
+<p>相关的教程随便一 Google 满屏都是，我就不重复造轮子了。仅给出建议的学习路线和推荐的工具、资料。</p>
+<ol>
+<li>LaTeX 在线编辑工具<a href="http://www.codecogs.com/latex/eqneditor.php" target="_blank">eqneditor</a>。功能十分强大，不仅可以实时可视化生成的结果，对于初学者，还可以通过上方的面板直接选取想要编辑的数学符号。这个工具先熟悉一下，随便玩玩，直观感受一下，一会再开始正式学习。另外，不建议下载安装 Win 版或 Mac 版的 LaTeX 编辑系统，Mac 上的 MacTex 有2G+，受不了。</li>
+<li>简单的入门教程<a href="http://wiki.gwrite.googlecode.com/hg/misc/LaTex-EquRef.html?r=1de19067fce5484bb5c39cbd049f6a47f7d8a2e9" target="_blank">《LaTex 参考》</a>。只介绍编辑数学公式的基本用法，简单、实用、清晰明了。建议一边学习一边在eqneditor实践。通过这一步的学习，我们就能基本掌握用 LaTeX 编辑数学公式的语法格式了。捎带说一下符号<code>$$</code>，它的意思是两个这样的符号包裹起来的部分是单独成行的；而两个<code>$</code>表示在行内插入数学公式。教程里会有，看到的时候知道就行，在编辑器里面可以体会到两者的不同。上述编辑器默认是<code>$$</code>。</li>
+<li>数学函数参考手册<a href="http://mohu.org/info/symbols/symbols.htm" target="_blank">《常用数学符号的 LaTeX 表示方法》</a>。上一步走完后，我们了解了基本语法，入门已经完毕，在实际使用中，遇到不清楚的函数，可以到这里查阅参考。</li>
+<li>LaTeX 进阶<a href="http://pan.baidu.com/s/1zMIOj" target="_blank">lshort 和 lnotes</a>。想要进一步了解 LaTeX 更强大更复杂更全面的功能，这两个教程是经典的金典大作。我就不看了，文本排版控制，我还是喜欢 Markdown。</li>
+</ol>
+<p>希望能对大家有些帮助。</p>
+]]></content>
+    <category scheme="http://zipperary.com/categories/IT杂谈/" term="IT杂谈"/>
+  </entry>
   <entry>
     <title type="html"><![CDATA[研究生課程點評]]></title>
     <link href="http://zipperary.com/2013/10/23/class-so-far/"/>
@@ -800,27 +821,5 @@
 <p>明天就要开始上课了，希望自己能认真听课、记录、消化、整理，有价值的尽量写出来分享。</p>
 ]]></content>
     <category scheme="http://zipperary.com/categories/生活/" term="生活"/>
-  </entry>
-  <entry>
-    <title type="html"><![CDATA[悄悄告诉你]]></title>
-    <link href="http://zipperary.com/2013/09/10/qiao-qiao-gao-su-ni/"/>
-    <id>http://zipperary.com/2013/09/10/qiao-qiao-gao-su-ni/</id>
-    <published>2013-09-10T07:58:37.000Z</published>
-    <updated>2013-09-10T12:44:20.000Z</updated>
-    <content type="html"><![CDATA[<p>传说很多高校的学生都有一种默默的心酸叫做「限流量上网」。我也曾心酸过，但自从知道、使用了好心人提供的工具，腰不酸了，腿不痛了，走路也有劲了，上网也自由了。</p>
-<p>学校都有一些服务器是不需要限流量的，那么可以利用一部分资源，做个局域网代理。校内用户使用此代理，再通过这个服务器跟校外通信，就可以不登录校园网账号自由上网了。</p>
-<a id="more"></a>
-
-<p>具体的设置方法，请看下图：</p>
-<p><img src="http://ww3.sinaimg.cn/large/5e8cb366jw1e8hoj070vlj20gb0ezacf.jpg" alt=""></p>
-<p>填上地址和端口号就能上网了。</p>
-<p>但这样可能会有一个问题，其他客户端软件（如QQ、为知笔记、百度云）无法联网。我在网上Google出一个特别好的解决方案：安装Proxifier实现全局代理。</p>
-<p>软件地址：<a href="http://pan.baidu.com/share/link?shareid=330345327&amp;uk=1661888259" target="_blank">http://pan.baidu.com/share/link?shareid=330345327&amp;uk=1661888259</a></p>
-<p>使用方法：安装好之后，在<code>配置文件-代理服务器</code>中添加一个代理服务器即可，把地址和端口号填写完备。如果有些网站我不想走这个代理，可以通过<code>配置文件-代理规则</code>添加一条规则，上面已经有一两条了，可以仿照着写。</p>
-<p>关于使用局域网代理，再使用其他代理FQ的问题。在实验室试了几种方法都不成功，回寝室后用笔记本上的Goagent完全没问题。</p>
-<p>悄悄的听，切不可声张，嘘…</p>
-<p>下午去游泳，我这种体型漂浮有困难，且容易发冷。出来去吃「没名儿生煎」，好吃！只不过我配的西红柿鸡蛋盖饭略显屌丝。。</p>
-]]></content>
-    <category scheme="http://zipperary.com/categories/IT杂谈/" term="IT杂谈"/>
   </entry>
 </feed>
