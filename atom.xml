@@ -4,13 +4,51 @@
   <subtitle><![CDATA[Walk steps step by step]]></subtitle>
   <link href="http://zipperary.com/atom.xml" rel="self"/>
   <link href="http://zipperary.com"/>
-  <updated>2013-10-26T03:10:49.602Z</updated>
+  <updated>2013-10-27T07:18:51.960Z</updated>
   <id>http://zipperary.com/</id>
   <author>
     <name><![CDATA[zippera]]></name>
     <email><![CDATA[sovey198@gmail.com]]></email>
   </author>
   <generator uri="http://zespia.tw/hexo">Hexo</generator>
+  <entry>
+    <title type="html"><![CDATA[Mac神器之 Alfred Workflow]]></title>
+    <link href="http://zipperary.com/2013/10/27/alfred-workflow/"/>
+    <id>http://zipperary.com/2013/10/27/alfred-workflow/</id>
+    <published>2013-10-27T06:43:59.000Z</published>
+    <updated>2013-10-27T07:17:24.000Z</updated>
+    <content type="html"><![CDATA[<p><img src="http://ww2.sinaimg.cn/large/5e8cb366jw1e9zrfp5olcj20l60hkgn3.jpg" alt=""></p>
+<p>今天通过一个网友哥们了解到 workflow 这个东西，准确的说是 Alfred 中的 workflow，当即决定要武断地封它为神奇的神器。</p>
+<p>那么什么是。。Alfred 呢？</p>
+<p>首先要从 Mac 上的 Spotlight 说起。这是 Mac OS X 上自带的全局搜索工具，用<code>control + command</code>呼出，输入关键字，即时显示不同域里的搜索结果。无图无真相，一图见分晓。</p>
+<p><img src="http://ww3.sinaimg.cn/large/5e8cb366jw1e9zrbloknkj20cq0kk40h.jpg" alt=""></p>
+<p>可以看到，Spotlight 已经是个非常好用的神器了。接下来介绍 Alfred。</p>
+<a id="more"></a>
+
+<p>官方的说明是：</p>
+<blockquote>
+<p>Alfred is an award-winning productivity application for Mac OS X<br>Alfred saves you time when you search for files online or on your Mac. Be more productive with hotkeys, keywords and file actions at your fingertips.</p>
+</blockquote>
+<p>自然，Spotlight 提供的功能，它都能实现。Plus and Besides，它还能提供运算、终端命令等操作；得益于强大的 workflow，你几乎可以在这里实现所有用别的方式可是实现的功能，but efficiently。</p>
+<p>比如，有网友写了一个转换阿拉伯数字到中文繁体数字的 workflow，直观展示一下：</p>
+<p><img src="http://ww4.sinaimg.cn/large/5e8cb366jw1e9zrc8v40zj20go04xmxs.jpg" alt=""></p>
+<p>回车后还可以放大：</p>
+<p><img src="http://ww1.sinaimg.cn/large/5e8cb366jw1e9zrcuckcaj20go070q45.jpg" alt=""></p>
+<p>类似地，你可以写一个查询天气的 workflow。实际上，你需要的，大多数都已经有人写出来了，google 即可。</p>
+<p><strong>怎样安装 Alfred？</strong></p>
+<p>当然是去官网喽：<a href="http://www.alfredapp.com" target="_blank">http://www.alfredapp.com</a></p>
+<p>需要说明的是，这是一个收费软件；免费的话，只能使用搜索和计算等一些基本功能，购买之后可以使用全部功能；比较贵，个人版是17欧元。</p>
+<p>首先，我极力推荐正版；然后，呃，对于我等无产阶级草民，只能通过天朝孕育出来的独门秘籍了——破解版。破解方式不宜公开，有需要者可以私联。</p>
+<p>安装好之后，呼出的方式是<code>option + command</code>；跟 spotlight 有 slightly different。</p>
+<p>上面已经提到了 workflow；既然这么好，那我也做一个吧。想想我平时遇到过什么麻烦的操作。。想到一个，写博客的时候，需要打开终端，又是 cd 啊，又是 hexo 啊，又是 open 的，很麻烦，那么我就用 workflow 来流程化一下下。</p>
+<p><img src="http://ww3.sinaimg.cn/large/5e8cb366jw1e9zrdm42tej20xq0n4mzv.jpg" alt=""></p>
+<p><img src="http://ww4.sinaimg.cn/large/5e8cb366jw1e9zrekozeej20di07k3z8.jpg" alt=""></p>
+<p><img src="http://ww1.sinaimg.cn/large/5e8cb366jw1e9zrew130qj20jg0c8dgm.jpg" alt=""></p>
+<p>Bingo！现在，只要呼出 Alfred，输入<code>hexo n blabla</code>，就会自动完成「切换目录，创建文件，打开目录，打开终端」等一系列操作，nice and neat。</p>
+<p>Okay，介绍完了，了解更多，Please Google It。</p>
+]]></content>
+    <category scheme="http://zipperary.com/categories/Mac/" term="Mac"/>
+  </entry>
   <entry>
     <title type="html"><![CDATA[用LaTeX编辑数学公式]]></title>
     <link href="http://zipperary.com/2013/10/26/latex-for-math/"/>
@@ -796,30 +834,5 @@
 </ol>
 ]]></content>
     <category scheme="http://zipperary.com/categories/IT杂谈/" term="IT杂谈"/>
-  </entry>
-  <entry>
-    <title type="html"><![CDATA[开学两周间]]></title>
-    <link href="http://zipperary.com/2013/09/15/2-weeks-here/"/>
-    <id>http://zipperary.com/2013/09/15/2-weeks-here/</id>
-    <published>2013-09-15T15:06:34.000Z</published>
-    <updated>2013-09-15T15:34:56.000Z</updated>
-    <content type="html"><![CDATA[<p><img src="http://ww4.sinaimg.cn/large/5e8cb366jw1e8nltbqp8aj20sg0iymzg.jpg" alt=""></p>
-<p>这些天一直没更新博客，实在想念这个地方了，今晚无论如何也要写点东西，生拼硬凑也要写。</p>
-<p>我们学校一个奇葩的地方是来了两周都还没有上课，明天周一才开始。这两周间除了零星办理一些学校相关的程序事务，基本上都是靠网络活过来。对于我来说，一来学习的氛围不浓、兴趣也不大，二来也给自己找了一个很reasonable的借口：玩过这两周之后将是无绵无尽的学业和职业了。</p>
-<a id="more"></a>
-
-<p>两周前还在家的时候，我每天从早到晚的学习，电影都没兴趣看了。学习一个知识的时候，可以很好的保持专注，思维的连续性也好。虽然由于愚钝没有提高多少，但那种努力和充实的感觉真的很不错。对比这两个周，大好的时光，很少冗事叨扰，却浑浑噩噩，没有计划，没有约束，实在堕落的很呢。任何借口也掩盖不了这种空虚和失落感。再想到一把年纪了还没有把另一半找到，一把鼻涕一把辛酸泪啊！</p>
-<p>所有学习的时间，基本上都是小王带着去自习室才产生的。但由于良好的上网条件和舒适的环境，分了一部分的心神给我的S3.读《Web开发敏捷之道》和《Go语言编程》（不要喷我，我实在借不到python…），时间上的不连续造成思维上的断节，效果不怎么好。而且吧，整个假期都是电子阅读，现在突然发现看纸质书各种不方便。</p>
-<p>上网呢，室友告诉我有校内代理这回事，然后我附带神器Proxifier热心推广了下，积攒人品。顺便告诉看官，安卓上的ProxyDroid有同样作用（感谢知乎君）。</p>
-<p>人呢，觉得我接触到的都很nice，非常幸运。</p>
-<p>在京的朋友呢，接待了好几个了，感情还是那么好，以后在同城更方便了。</p>
-<p>选课呢，特别感谢葛同学和郑同学的热心帮忙。同时悔恨自己人品不济，居然没选上数学。没有数学的日子可怎么活！</p>
-<p>北外呢，呃。。我为什么会说这么一句。。我想说北外的游泳馆和图书馆很棒，就这些。</p>
-<p>博客虽然更新不勤，但依然有朋友在这里留言交流，这是我的荣幸。我很珍爱这块自留地，一定不会浪费掉。</p>
-<p>手机呢，用现在的CM10.1RC2，稳定、流畅、轻便、漂亮、无bug，偶尔会盯着屏幕孤芳自赏。</p>
-<p>电影呢，去影院看了《了不起的盖茨比》，非常喜欢。在宿舍看了《白鹿原》，我这智商无法脑补到可以理解剧情的地步。。</p>
-<p>明天就要开始上课了，希望自己能认真听课、记录、消化、整理，有价值的尽量写出来分享。</p>
-]]></content>
-    <category scheme="http://zipperary.com/categories/生活/" term="生活"/>
   </entry>
 </feed>
