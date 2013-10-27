@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Walk steps step by step]]></subtitle>
   <link href="http://zipperary.com/atom.xml" rel="self"/>
   <link href="http://zipperary.com"/>
-  <updated>2013-10-27T07:18:51.960Z</updated>
+  <updated>2013-10-27T15:03:19.491Z</updated>
   <id>http://zipperary.com/</id>
   <author>
     <name><![CDATA[zippera]]></name>
@@ -16,11 +16,11 @@
     <link href="http://zipperary.com/2013/10/27/alfred-workflow/"/>
     <id>http://zipperary.com/2013/10/27/alfred-workflow/</id>
     <published>2013-10-27T06:43:59.000Z</published>
-    <updated>2013-10-27T07:17:24.000Z</updated>
+    <updated>2013-10-27T15:02:38.000Z</updated>
     <content type="html"><![CDATA[<p><img src="http://ww2.sinaimg.cn/large/5e8cb366jw1e9zrfp5olcj20l60hkgn3.jpg" alt=""></p>
 <p>今天通过一个网友哥们了解到 workflow 这个东西，准确的说是 Alfred 中的 workflow，当即决定要武断地封它为神奇的神器。</p>
 <p>那么什么是。。Alfred 呢？</p>
-<p>首先要从 Mac 上的 Spotlight 说起。这是 Mac OS X 上自带的全局搜索工具，用<code>control + command</code>呼出，输入关键字，即时显示不同域里的搜索结果。无图无真相，一图见分晓。</p>
+<p>首先要从 Mac 上的 Spotlight 说起。这是 Mac OS X 上自带的全局搜索工具，用<code>control + space</code>呼出，输入关键字，即时显示不同域里的搜索结果。无图无真相，一图见分晓。</p>
 <p><img src="http://ww3.sinaimg.cn/large/5e8cb366jw1e9zrbloknkj20cq0kk40h.jpg" alt=""></p>
 <p>可以看到，Spotlight 已经是个非常好用的神器了。接下来介绍 Alfred。</p>
 <a id="more"></a>
@@ -39,7 +39,7 @@
 <p>当然是去官网喽：<a href="http://www.alfredapp.com" target="_blank">http://www.alfredapp.com</a></p>
 <p>需要说明的是，这是一个收费软件；免费的话，只能使用搜索和计算等一些基本功能，购买之后可以使用全部功能；比较贵，个人版是17欧元。</p>
 <p>首先，我极力推荐正版；然后，呃，对于我等无产阶级草民，只能通过天朝孕育出来的独门秘籍了——破解版。破解方式不宜公开，有需要者可以私联。</p>
-<p>安装好之后，呼出的方式是<code>option + command</code>；跟 spotlight 有 slightly different。</p>
+<p>安装好之后，呼出的方式是<code>option + space</code>；跟 spotlight 有 slightly different。</p>
 <p>上面已经提到了 workflow；既然这么好，那我也做一个吧。想想我平时遇到过什么麻烦的操作。。想到一个，写博客的时候，需要打开终端，又是 cd 啊，又是 hexo 啊，又是 open 的，很麻烦，那么我就用 workflow 来流程化一下下。</p>
 <p><img src="http://ww3.sinaimg.cn/large/5e8cb366jw1e9zrdm42tej20xq0n4mzv.jpg" alt=""></p>
 <p><img src="http://ww4.sinaimg.cn/large/5e8cb366jw1e9zrekozeej20di07k3z8.jpg" alt=""></p>
