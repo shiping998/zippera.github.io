@@ -78,6 +78,48 @@ document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3
     <header>
       
         <div class="icon"></div>
+        <time datetime="2013-06-12T10:59:47.000Z"><a href="/2013/06/12/pca/">6月 12 2013</a></time>
+      
+      
+  
+    <h1 class="title"><a href="/2013/06/12/pca/">Principal Componential Algorithm (PCA)</a></h1>
+  
+
+    </header>
+    <div class="entry">
+      
+        <p>今天学习的是<strong>无监督学习</strong>中的第二类算法：<strong>Dimentionality Reduction</strong>，即维度降低。我们所研究的数据集合，每个数据通常都有一个<strong>特征向量</strong>，在真实的问题中，维度往往很高，数量级可以达到上万或者更高。有时候就需要进行降维，<strong>好处</strong>有这几点：</p>
+<ul>
+<li>Data Compression。数据压缩，大量的数据，每个数据都有很高的特征维度，存储所需要的空间就会很大，对硬件的配置要求也会很高。</li>
+<li>Speed up learning。加速学习、提高训练的速度。</li>
+<li>Visualization。视觉化是处理问题一个很好的手段，形成图形后可以直观地观察、更好地理解我们的问题。当特征向量超过三维后，就无法用图形表示了，所以这类降维往往需要降到三维以下。</li>
+</ul>
+<p><strong>数据降维的原理：</strong> 特征向量不同分量之间，往往有一定**的相关性。<br>最简单的例子，我们要表示一根指挥棒，纵坐标为用inch表示其长度，横坐标用cm表示其长度，这样可以形成用二维特征向量表示的特征值。所有的数据都落在一条直线上，事实上也就是一维图形了。<br>假如相关度不如上个例子那么高，我们还是可以找出一条直线进行拟合，然后将所有数据投射到这条直线上，用这些投射点作为降维之后的数据。同理，对于维度为3的特征向量，可以投射到一个平面（plane）上，降为二维。</p>
+
+      
+    </div>
+    <footer>
+      
+        
+          <div class="alignleft">
+            <a href="/2013/06/12/pca/#more" class="more-link">阅读全文</a>
+          </div>
+        
+        
+      
+      <div class="clearfix"></div>
+    </footer>
+  </div>
+</article>
+
+
+
+  <article class="post">
+  
+  <div class="post-content">
+    <header>
+      
+        <div class="icon"></div>
         <time datetime="2013-06-11T10:49:08.000Z"><a href="/2013/06/11/bian-cheng-lang-zi/">6月 11 2013</a></time>
       
       
@@ -227,41 +269,6 @@ document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3
 
 
 
-  <article class="photo">
-  
-  <div class="post-content">
-    <header>
-      
-        <div class="icon"></div>
-        <time datetime="2013-06-08T14:37:39.000Z"><a href="/2013/06/08/music-on-work/">6月 8 2013</a></time>
-      
-      
-  
-    <h1 class="title"><a href="/2013/06/08/music-on-work/">工作时应该听什么音乐？</a></h1>
-  
-
-    </header>
-    <div class="entry">
-      
-        <p>今天分享一张信息图。</p>
-<p><img src="/img/音乐.jpg" alt=""></p>
-<hr>
-<p>爱打卡-100days-第12天-0111</p>
-
-      
-    </div>
-    <footer>
-      
-        
-        
-      
-      <div class="clearfix"></div>
-    </footer>
-  </div>
-</article>
-
-
-
 
 <nav id="pagination">
   
@@ -309,7 +316,7 @@ document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3
   
     <li><a href="/categories/机器学习/">机器学习</a><small>8</small></li>
   
-    <li><a href="/categories/生活/">生活</a><small>27</small></li>
+    <li><a href="/categories/生活/">生活</a><small>28</small></li>
   
     <li><a href="/categories/电影/">电影</a><small>16</small></li>
   
