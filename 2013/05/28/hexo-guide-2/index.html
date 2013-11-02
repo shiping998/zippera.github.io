@@ -118,6 +118,7 @@ document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3
 <p>已有账号可以跳过，没有的，请<a href="https://github.com/signup/free" target="_blank">在此</a>进行注册，很简单，这里就不介绍了。<br><img src="/img/repo.png" alt=""></p>
 <h3>创建repository</h3>
 <p>在自己<a href="https://github.com/" target="_blank">Github</a>主页右下角，创建一个新的repository。比如我的<a href="https://github.com/" target="_blank">Github</a>账号是<a href="https://github.com/zippera" target="_blank">zippera</a>，那么我应该创建的repository名字应该是<code>zippera.github.io</code>。</p>
+<p><img src="http://ww2.sinaimg.cn/large/5e8cb366jw1ea6opuis78j20au01qq2t.jpg" alt=""></p>
 <h3>部署</h3>
 <p>编辑<code>_config.yml</code>(在<code>H:\hexo</code>下)。你在部署时，要把下面的<code>zippera</code>都换成你的账号名。</p>
 <figure class="highlight"><table><tr><td class="gutter"><pre>1
@@ -137,6 +138,7 @@ document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3
 <span class="title">hexo</span> deploy
 </pre></td></tr></table></figure>
 
+<p><strong>注意：</strong>有些新用户需要设置 ssh，否则上述命令会失败。ssh 的介绍和设置方法请看<a href="https://help.github.com/articles/generating-ssh-keys" target="_blank">官方教程</a>，不用担心，很简单。</p>
 <p><strong>记住：</strong>每次修改本地文件后，需要<code>hexo generate</code>才能保存。每次使用命令时，都要在<code>H:\hexo</code>目录下。</p>
 <p>Okay,我们的博客已经完全搭建起来了，在浏览器访问<code>zippera.github.io</code>就能看到你的成就了！</p>
 <h3>bugs</h3>
@@ -144,6 +146,12 @@ document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3
 <li>有网友反应右键菜单中没有<code>git bash</code>选项，可以进入开始菜单找到<code>git bash</code>，然后通过<code>cd</code>进入相应目录执行命令。</li>
 <li>在github部署完成之后，马上访问可能出现404错误，这是正常的，（最多）等待十分钟左右就可以访问了。</li>
 </ol>
+<h3>tips</h3>
+<p>hexo现在支持更加简单的命令格式了，比如：</p>
+<p><code>hexo g</code> == <code>hexo generate</code></p>
+<p><code>hexo d</code> == <code>hexo deploy</code></p>
+<p><code>hexo s</code> == <code>hexo server</code></p>
+<p><code>hexo n</code> == <code>hexo new</code></p>
 <p>在下一节中，我们会介绍如何配置自己的网站，如何撰写和发表文章。</p>
 <hr>
 <p>爱打卡-100days-第1天-0111</p>
