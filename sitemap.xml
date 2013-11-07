@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://zipperary.com/2013/11/07/wo-men-sa/</loc>
+    <lastmod>2013-11-07T03:16:53.000Z</lastmod>
+  </url>
+  <url>
+    <loc>http://zipperary.com/about/index.html</loc>
+    <lastmod>2013-11-07T03:12:19.000Z</lastmod>
+  </url>
+  <url>
     <loc>http://zipperary.com/2013/11/04/shi-guang/</loc>
     <lastmod>2013-11-04T02:35:07.000Z</lastmod>
   </url>
@@ -399,10 +407,6 @@
   <url>
     <loc>http://zipperary.com/2013/07/08/v-for-vendentta/</loc>
     <lastmod>2013-07-08T10:04:20.000Z</lastmod>
-  </url>
-  <url>
-    <loc>http://zipperary.com/about/index.html</loc>
-    <lastmod>2013-07-08T03:18:34.000Z</lastmod>
   </url>
   <url>
     <loc>http://zipperary.com/2013/07/07/dong-wu-nong-chang/</loc>
