@@ -78,6 +78,47 @@ document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3
     <header>
       
         <div class="icon"></div>
+        <time datetime="2013-06-16T01:29:55.000Z"><a href="/2013/06/16/large-scale-ml/">6月 16 2013</a></time>
+      
+      
+  
+    <h1 class="title"><a href="/2013/06/16/large-scale-ml/">大规模机器学习</a></h1>
+  
+
+    </header>
+    <div class="entry">
+      
+        <p>机器学习在这几年得到快速发展，一个很重要的原因是 Large Dataset（大规模数据），这节课就来介绍用机器学习算法处理大规模数据的问题。</p>
+<p>关于数据的重要性，有一句话是这么说的：</p>
+<blockquote>
+<p>It&#39;s not who has the best <strong>algorithm</strong> that wins.<br>It&#39;s who has the most <strong>data</strong>.</p>
+</blockquote>
+<p>然而，当数据量过大时，计算的复杂度会增加，计算成本也会提高。假如数据量是一百万，使用梯度下降算法来训练参数，每走一步，需要对百万数据进行求和计算，这样的计算量是极大的。但现实问题总是有大量数据，比如全国的车辆、网民等等。那么，我们就有必要研究一下如何更好地处理大规模数据。</p>
+
+      
+    </div>
+    <footer>
+      
+        
+          <div class="alignleft">
+            <a href="/2013/06/16/large-scale-ml/#more" class="more-link">阅读全文</a>
+          </div>
+        
+        
+      
+      <div class="clearfix"></div>
+    </footer>
+  </div>
+</article>
+
+
+
+  <article class="post">
+  
+  <div class="post-content">
+    <header>
+      
+        <div class="icon"></div>
         <time datetime="2013-06-15T00:12:18.000Z"><a href="/2013/06/15/recommender-system/">6月 15 2013</a></time>
       
       
@@ -193,48 +234,6 @@ document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3
 
 
 
-  <article class="post">
-  
-  <div class="post-content">
-    <header>
-      
-        <div class="icon"></div>
-        <time datetime="2013-06-12T10:59:47.000Z"><a href="/2013/06/12/pca/">6月 12 2013</a></time>
-      
-      
-  
-    <h1 class="title"><a href="/2013/06/12/pca/">Principal Componential Algorithm (PCA)</a></h1>
-  
-
-    </header>
-    <div class="entry">
-      
-        <p>今天学习的是<strong>无监督学习</strong>中的第二类算法：<strong>Dimentionality Reduction</strong>，即维度降低。我们所研究的数据集合，每个数据通常都有一个<strong>特征向量</strong>，在真实的问题中，维度往往很高，数量级可以达到上万或者更高。有时候就需要进行降维，<strong>好处</strong>有这几点：</p>
-<ul>
-<li>Data Compression。数据压缩，大量的数据，每个数据都有很高的特征维度，存储所需要的空间就会很大，对硬件的配置要求也会很高。</li>
-<li>Speed up learning。加速学习、提高训练的速度。</li>
-<li>Visualization。视觉化是处理问题一个很好的手段，形成图形后可以直观地观察、更好地理解我们的问题。当特征向量超过三维后，就无法用图形表示了，所以这类降维往往需要降到三维以下。</li>
-</ul>
-<p><strong>数据降维的原理：</strong> 特征向量不同分量之间，往往有一定**的相关性。<br>最简单的例子，我们要表示一根指挥棒，纵坐标为用inch表示其长度，横坐标用cm表示其长度，这样可以形成用二维特征向量表示的特征值。所有的数据都落在一条直线上，事实上也就是一维图形了。<br>假如相关度不如上个例子那么高，我们还是可以找出一条直线进行拟合，然后将所有数据投射到这条直线上，用这些投射点作为降维之后的数据。同理，对于维度为3的特征向量，可以投射到一个平面（plane）上，降为二维。</p>
-
-      
-    </div>
-    <footer>
-      
-        
-          <div class="alignleft">
-            <a href="/2013/06/12/pca/#more" class="more-link">阅读全文</a>
-          </div>
-        
-        
-      
-      <div class="clearfix"></div>
-    </footer>
-  </div>
-</article>
-
-
-
 
 <nav id="pagination">
   
@@ -282,7 +281,7 @@ document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3
   
     <li><a href="/categories/机器学习/">机器学习</a><small>8</small></li>
   
-    <li><a href="/categories/生活/">生活</a><small>29</small></li>
+    <li><a href="/categories/生活/">生活</a><small>30</small></li>
   
     <li><a href="/categories/电影/">电影</a><small>16</small></li>
   
