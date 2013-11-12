@@ -4,13 +4,34 @@
   <subtitle><![CDATA[Walk steps step by step]]></subtitle>
   <link href="http://zipperary.com/atom.xml" rel="self"/>
   <link href="http://zipperary.com"/>
-  <updated>2013-11-10T12:08:16.370Z</updated>
+  <updated>2013-11-12T00:39:46.137Z</updated>
   <id>http://zipperary.com/</id>
   <author>
     <name><![CDATA[zippera]]></name>
     <email><![CDATA[sovey198@gmail.com]]></email>
   </author>
   <generator uri="http://zespia.tw/hexo">Hexo</generator>
+  <entry>
+    <title type="html"><![CDATA[秋逝]]></title>
+    <link href="http://zipperary.com/2013/11/12/autumn-gone-far/"/>
+    <id>http://zipperary.com/2013/11/12/autumn-gone-far/</id>
+    <published>2013-11-12T00:15:11.000Z</published>
+    <updated>2013-11-12T00:39:37.000Z</updated>
+    <content type="html"><![CDATA[<p><img src="http://ww2.sinaimg.cn/large/5e8cb366jw1eahxvztcxqj21kw16oe81.jpg" alt=""></p>
+<p>昨天双十一，亦痛苦亦兴奋地败家购物之后，下午坐在实验室里，阳光明媚，空气清澈，忽然想起，我也是这「光棍节」的主角，天气很好，应该出去走走。</p>
+<p>去哪里？我毫不犹豫地呼出了「奥体」两个字。一直以来它都在我的 visiting list 中，来京后去过很多地方，那一片名胜却始终没有机会去。</p>
+<a id="more"></a>
+
+<p>走出中教，起风了，但跟「周一不学习出去玩的愧疚感」争斗之后好不容易下好的决心是不可以轻易改变的。忘记不学习的愧疚，忘记挑选外套的煎熬，秋天即将远去，今天不去，更待何日。</p>
+<p>4-10-8，地铁转的比较麻烦，好在总的站数并不多。奥林匹克森林公园南门，到了。蓝天，草地，树木林立，喜鹊，静水，古典音乐。这个地方很干净，没有被商业开发，没有叫卖，没有臭豆腐的气味，没有很多人，也没有满地的垃圾。阳光很暖，风却很凉，除此之外，美的完美。</p>
+<p>自然风景，稀奇古怪好玩的东西并不多，玩的是一种心情，在与大自然的零距离接触中，只需要静静感受，只需要体验。</p>
+<p>公园面积很大，抄近路还是用了不少的时间才回到入口处。几天前刚刚立冬，我来这里跟秋天说 ByeBye。</p>
+<p>出门往南走，经过国家会议中心，就到了奥体公园。天已渐黑，鸟巢和水立方都亮起了灯，一个是橘色调，一个是蓝调，交相辉映，很美。站在鸟巢底下，惊叹这样的巧夺天工，惊叹人类的智慧和双手。然而，听不到里面任何声音，也看不到里面的任何画面，感觉到隔阂。水立方亦然，的确很美，但除了一个美丽的空壳，它能带给我什么呢，什么都没有。</p>
+<p>风愈紧愈冷，腹内饥肠辘辘，晚上还有课，寻找地铁站，8-10-4，回学校。</p>
+<p>秋逝，冬宅，好好学习，天天向上。</p>
+]]></content>
+    <category scheme="http://zipperary.com/categories/生活/" term="生活"/>
+  </entry>
   <entry>
     <title type="html"><![CDATA[Hotel Transylvania]]></title>
     <link href="http://zipperary.com/2013/11/10/hotel-transylvania/"/>
@@ -576,41 +597,5 @@
 <p>Mac 下的「剪切」为： <code>command + c</code>复制，然后<code>option +  command + v</code>，就可以实现 win7下的剪切功能了。</p>
 ]]></content>
     <category scheme="http://zipperary.com/categories/生活/" term="生活"/>
-  </entry>
-  <entry>
-    <title type="html"><![CDATA[Mac升级Lion到Mavericks]]></title>
-    <link href="http://zipperary.com/2013/10/06/osx-update-and-ipv6-configure/"/>
-    <id>http://zipperary.com/2013/10/06/osx-update-and-ipv6-configure/</id>
-    <published>2013-10-06T05:23:41.000Z</published>
-    <updated>2013-10-06T05:59:15.000Z</updated>
-    <content type="html"><![CDATA[<p><img src="http://ww3.sinaimg.cn/large/5e8cb366jw1e9bezvg5kij217y0na119.jpg" alt=""></p>
-<p>最近苹果放出了 Mavericks GM，也就是正式版之前的最后一个版本。有开发者提取了系统安装文件，并放在网上分享。目前用的比较多的有两个版本：</p>
-<p> 一个是<a href="http://kuai.xunlei.com/d/IMQfAAIjVgC5UU5Sfc0" target="_blank">全新安装版</a>（迅雷快传）</p>
-<p> 另一个是<a href="http://pan.baidu.com/share/link?shareid=2750006&amp;uk=3658275525" target="_blank">升级安装版</a>（百度网盘）</p>
-<p>我是从10.8.5升级到 Mavericks GM(10.9)，为了升级的方便以及保留所有的数据和程序，我使用了<strong>第二个方案</strong>。</p>
-<p><em>升级之前，请使用 Time machine 进行备份！</em></p>
-<p><em>我没有多少太重要的数据、程序，也怕备份麻烦，所以没有做备份。</em></p>
-<a id="more"></a>
-
-<p>升级的过程相当简单：</p>
-<ol>
-<li><p>首先点击上面的连接下载升级安装文件。推荐在 win 上安装<strong>百度云管家</strong>，速度非常快。</p>
-</li>
-<li><p>下载完成之后，在 Mac 上双击打开，并把里面的 拖放到桌面，方便使用。再双击 ，一路默认，之后会重启安装。</p>
-</li>
-<li><p>安装的过程大概需要40分钟，期间可以洗洗衣服什么的。之后还会重启一次。会提示你设置一些东西，按照要求填写即可。</p>
-</li>
-</ol>
-<p>进入升级好之后的系统，发现变化真心不大。比较明显的，一是 iBooks，二是地图。所有的数据、程序、状态都完美保存着，很不错。具体的变化，请参考这个页面：<a href="http://www.apple.com/cn/osx/preview" target="_blank">http://www.apple.com/cn/osx/preview</a> 。</p>
-<hr>
-<p>Macboos Air没有网线插口，上网只能连接无线。而一般的无线路由器都不支持 IPV6，这么好的资源就白白浪费了。目前求得一法，亲测好用。</p>
-<ol>
-<li>访问<code>192.168.0.1</code>或<code>192.168.1.1</code>，登录路由器。（网址和登录名、密码都写在路由器的底部）</li>
-<li>进入<code>DHCP 设置</code>，关掉 DHCP。</li>
-<li>把网口伸出来的网线插入无线路由器的任意一个 LAN 口，而不是 WAN 口。</li>
-<li>连接无线，访问<a href="http://ipv6.google.com.hk，如果能打开，说明已经搞定。" target="_blank">http://ipv6.google.com.hk，如果能打开，说明已经搞定。</a></li>
-</ol>
-]]></content>
-    <category scheme="http://zipperary.com/categories/Mac/" term="Mac"/>
   </entry>
 </feed>
