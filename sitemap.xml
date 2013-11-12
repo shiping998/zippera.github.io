@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://zipperary.com/2013/05/30/hexo-guide-4/</loc>
+    <lastmod>2013-11-12T13:47:32.000Z</lastmod>
+  </url>
+  <url>
     <loc>http://zipperary.com/2013/11/12/autumn-gone-far/</loc>
     <lastmod>2013-11-12T00:39:37.000Z</lastmod>
   </url>
@@ -307,10 +311,6 @@
   <url>
     <loc>http://zipperary.com/2013/07/27/python-pachong-dian-dian-tu-pian/</loc>
     <lastmod>2013-07-27T12:14:36.000Z</lastmod>
-  </url>
-  <url>
-    <loc>http://zipperary.com/2013/05/30/hexo-guide-4/</loc>
-    <lastmod>2013-07-26T15:08:56.000Z</lastmod>
   </url>
   <url>
     <loc>http://zipperary.com/2013/05/29/hexo-guide-3/</loc>
